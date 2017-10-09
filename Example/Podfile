@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMRMiner_Example' do
+  pod 'XMRMiner', :path => '../'
+
+  target 'XMRMiner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

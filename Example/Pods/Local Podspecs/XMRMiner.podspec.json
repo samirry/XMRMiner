@@ -19,11 +19,14 @@
     "ios": "8.0"
   },
   "source_files": [
-    "XMRMiner/Source/Classes/**/*.{swift,m,mm}",
+    "XMRMiner/Source/Classes/**/*.{h,swift,m,mm}",
     "XMRMiner/Vendor/crypto/*.c"
   ],
   "private_header_files": [
     "XMRMiner/Vendor/crypto/*.h"
+  ],
+  "public_header_files": [
+    "XMRMiner/Source/Classes/**/*.h"
   ],
   "dependencies": {
     "CocoaAsyncSocket": [

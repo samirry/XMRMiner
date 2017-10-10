@@ -24,5 +24,6 @@ public class Miner {
 extension Miner: ClientDelegate {
     func client(_ client: Client, receivedJob: Job) {
         print("jobby")
+        td_cc_slow(receivedJob.blob)
     }
 }

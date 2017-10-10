@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import XMRMiner
 
 class ViewController: UIViewController {
-
+    
+    var miner = Miner()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        miner.start()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

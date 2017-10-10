@@ -1,0 +1,39 @@
+{
+  "name": "XMRMiner",
+  "version": "0.1.0",
+  "summary": "A short description of XMRMiner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nickplee/XMRMiner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nickplee": "nick@tendigi.com"
+  },
+  "source": {
+    "git": "https://github.com/nickplee/XMRMiner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "XMRMiner/Source/Classes/**/*.{swift,m,mm}",
+    "XMRMiner/Vendor/crypto/*.c"
+  ],
+  "private_header_files": [
+    "XMRMiner/Vendor/crypto/*.h"
+  ],
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "~> 7.6"
+    ],
+    "ObjectMapper": [
+      "~> 3.0"
+    ],
+    "NSData+FastHex": [
+
+    ]
+  }
+}

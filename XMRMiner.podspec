@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XMRMiner/Classes/**/*'
-  
+  s.source_files = ['XMRMiner/Source/Classes/**/*.{swift,m,mm}', 'XMRMiner/Vendor/crypto/*.c']
+  s.private_header_files = ['XMRMiner/Vendor/crypto/*.h']
+
   # s.resource_bundles = {
   #   'XMRMiner' => ['XMRMiner/Assets/*.png']
   # }
@@ -39,4 +40,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'CocoaAsyncSocket', '~> 7.6'
+  s.dependency 'ObjectMapper', '~> 3.0'
+  s.dependency 'NSData+FastHex'
+
+
+
 end

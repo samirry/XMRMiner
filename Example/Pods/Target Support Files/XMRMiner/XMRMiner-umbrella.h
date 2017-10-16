@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "HashWrapperA.h"
-#import "HashWrapperB.h"
+#import "HashContext.h"
 
 FOUNDATION_EXPORT double XMRMinerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMRMinerVersionString[];

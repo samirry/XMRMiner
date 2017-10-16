@@ -20,7 +20,7 @@ final class Client {
     fileprivate struct Constants {
         struct Tags {
             static let sendRequest = 1
-            static let readResponse = 2
+            static let readJSON = 2
         }
         static let terminator = Data(bytes: [0x0A])
     }
@@ -69,6 +69,10 @@ extension Client {
         let terminatedData = jsonData + Constants.terminator
         socket.write(terminatedData, withTimeout: 30, tag: Constants.Tags.sendRequest)
     }
+    
+    fileprivate func receive() {
+        socket.readData(to: Client.Constants.terminator, withTimeout: -1, tag: Client.Constants.Tags.readJSON)
+    }
 }
 
 extension Client {
@@ -77,19 +81,26 @@ extension Client {
     }
     
     fileprivate func didReceive(response: Data) {
-        guard let json = (try? JSONSerialization.jsonObject(with: response, options: [])) as? [String : Any], let response = Mapper<RPCResponse>().map(JSON: json) else {
+        
+        guard let json = (try? JSONSerialization.jsonObject(with: response, options: [])) as? [String : Any] else {
             return
         }
         
-        switch response.result {
-        case .success(let result):
-            if let resultDict = result as? [String : Any], let jobJson = resultDict["job"], let job = Mapper<Job>().map(JSONObject: jobJson) {
+        if json.keys.contains("result"), let response = Mapper<RPCResponse>().map(JSON: json) { // JSON-RPC Response
+            switch response.result {
+            case .success(let result):
+                if let resultDict = result as? [String : Any], let jobJson = resultDict["job"], let job = Mapper<Job>().map(JSONObject: jobJson) { // JOB Response
+                    delegate?.client(self, receivedJob: job)
+                }
+            default:
+                break
+            }
+        }
+        else if let method = json["method"] as? String, let notification = Mapper<RPCNotification>().map(JSONObject: json) { // JSON-RPC Notification
+            if method == "job", let job = Mapper<Job>().map(JSONObject: notification.params) {
                 delegate?.client(self, receivedJob: job)
             }
-        default:
-            break
         }
-        
     }
 }
 
@@ -98,21 +109,22 @@ extension Client {
     
     func socket(_ sock: GCDAsyncSocket, didConnectToHost host: String, port: UInt16) {
         client?.socketConnected()
+        client?.receive()
     }
-    
-    func socket(_ sock: GCDAsyncSocket, didWriteDataWithTag tag: Int) {
-        switch tag {
-        case Client.Constants.Tags.sendRequest:
-            sock.readData(to: Client.Constants.terminator, withTimeout: 30, tag: Client.Constants.Tags.readResponse)
-        default:
-            break
-        }
-    }
+    //
+    //    func socket(_ sock: GCDAsyncSocket, didWriteDataWithTag tag: Int) {
+    //        switch tag {
+    //        case Client.Constants.Tags.sendRequest:
+    //        default:
+    //            break
+    //        }
+    //    }
     
     func socket(_ sock: GCDAsyncSocket, didRead data: Data, withTag tag: Int) {
         switch tag {
-        case Client.Constants.Tags.readResponse:
+        case Client.Constants.Tags.readJSON:
             client?.didReceive(response: data)
+            client?.receive()
         default:
             break
         }

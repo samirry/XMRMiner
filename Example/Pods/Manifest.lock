@@ -18,7 +18,7 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
   NSData+FastHex: a22ad031ee10a4297d0bf4d20cf03406a4476169
   ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
-  XMRMiner: fc25a5f946c812cc84c509209c649527e9a37017
+  XMRMiner: 8fe1a38a93e70761e4be9d56aa07c0b1fad973ff
 
 PODFILE CHECKSUM: a3de8be269ffa0e7971ce949700d3facc52a0e0c
 

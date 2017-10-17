@@ -16,14 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "source_files": [
     "XMRMiner/Source/Classes/**/*.{h,swift,m,mm}",
-    "XMRMiner/Vendor/crypto/*.c"
+    "XMRMiner/Vendor/crypto/**/*.c"
   ],
   "private_header_files": [
-    "XMRMiner/Vendor/crypto/*.h"
+    "XMRMiner/Vendor/crypto/**/*.h"
   ],
   "public_header_files": [
     "XMRMiner/Source/Classes/**/*.h"

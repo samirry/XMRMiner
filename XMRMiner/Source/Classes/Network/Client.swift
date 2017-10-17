@@ -8,6 +8,7 @@
 import Foundation
 import CocoaAsyncSocket
 import ObjectMapper
+import NSData_FastHex
 
 protocol ClientDelegate: class {
     func client(_ client: Client, receivedJob: Job)
@@ -50,6 +51,22 @@ final class Client {
     public func connect() throws {
         try socket.connect(toHost: url.host ?? "", onPort: UInt16(url.port ?? 3333))
     }
+    
+    // MARK: Jobs
+    
+    public func submitJob(id: String, jobID: String, result: Data, nonce: Job.Nonce) throws {
+        var nonceData = Data(count:  MemoryLayout<Job.Nonce>.size)
+        nonceData.withUnsafeMutableBytes { (ptr: UnsafeMutablePointer<Job.Nonce>) -> Void in
+            ptr.pointee = nonce
+        }
+        try send(method: "submit", id: 1, params: [
+            "id": id,
+            "job_id": jobID,
+            "result": (result as NSData).hexStringRepresentationUppercase(false),
+            "nonce": (nonceData as NSData).hexStringRepresentationUppercase(false)
+        ])
+    }
+    
 }
 
 extension Client {
@@ -85,6 +102,8 @@ extension Client {
         guard let json = (try? JSONSerialization.jsonObject(with: response, options: [])) as? [String : Any] else {
             return
         }
+        
+        print(json)
         
         if json.keys.contains("result"), let response = Mapper<RPCResponse>().map(JSON: json) { // JSON-RPC Response
             switch response.result {

@@ -8,78 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		0022494BDC3EAE6B4DBDDB0C92C33995 /* NSData+FastHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0300EE1AAF907DC1871B895630FF9A6D /* NSData+FastHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		05688E0A24EC4A5A2AF4F30BB0E9BD23 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C64B30CE4A61BC5742FF8858E238CB /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DE83638F5A0DB4136A32E0312551FC7 /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E4E8355F173B3542FC289F4325D46 /* oaes_lib.c */; };
+		05688E0A24EC4A5A2AF4F30BB0E9BD23 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFCA1781055ADA5D776EA05AE9DF38F /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F57026DE7BCC4ED5880B455E683EB2 /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = AB10D46AC6D2BB9F92F23D50A71D27E6 /* oaes_lib.c */; };
+		09A75F0EC7382A9F8A3E70D9BA69AEEF /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA738E8D47FB4F293ED3539FBE80C7DD /* Client.swift */; };
 		0F0334184AB5860990ED881A0BFA8425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */; };
 		0F981C56836FE34E921BC7253826A170 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD82B741885D703C19D5B76768A414 /* CustomDateFormatTransform.swift */; };
 		1018446811FA2BFC40AAF10DFE23F536 /* NSData_FastHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA90E595216C06B839B91B99EC4652 /* NSData_FastHex.framework */; };
-		1105D65C9890CF9D27BEA31A3167F88C /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2091D3739F8009E9F542BFB556C731 /* RPCNotification.swift */; };
-		12D75DBE56C4E73FADE318521C9CEB28 /* hash-extra-skein.c in Sources */ = {isa = PBXBuildFile; fileRef = B658A33503D406E2A8E808FF915F2173 /* hash-extra-skein.c */; };
 		134859C42E05396F62489E4329ECF6EA /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9FD405D5664CF5D51F72E8F157FE2 /* ToJSON.swift */; };
 		13F2343E3A9FC5BFC2786345247AC553 /* XMRMiner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9902CC717630134281D9EE05BEA95FAC /* XMRMiner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15C9BC6127E40152EBA23FB53BE61394 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C916C3AFEEAD23E2F89C60CFD25B6F7 /* skein.c */; };
-		167A7A617E2514EFE7F69CE5CBCA01F7 /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706485350CB094E34C6DF39A46DB0CD /* RPCRequest.swift */; };
+		142299AE0F1578E9C50CC1C08C8E98BD /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A13EEABD3C9198DD4999668CDB4D /* RPCNotification.swift */; };
+		174CD6E5B321089BAEABE640E8B66D09 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1AE935B6EFF08DCAA85BB09EA9B51 /* Strategy.swift */; };
 		1894026C296B8A77711607C98ED40C86 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82346B1A8AF01AC1EAE94E79952AAF22 /* IntegerOperators.swift */; };
 		18E9B5E96557418567FCB7DCC559299F /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D90B62208F99CB3D579613A399967D /* TransformOperators.swift */; };
-		193613322AC99F834C3CE245C224982B /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34D10E43C2A8B8C09BD2BE0E5BB279DA /* HashContext.mm */; };
 		194858D10B9B1DD9FFEFBE4EAA0700F3 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769072F0504104E6775A6085C99D51D0 /* TransformOf.swift */; };
+		1E506A3FC643216ECC63D5F82CA359FA /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F603E74BCCFF2CE301068049B0B55 /* Job.swift */; };
 		22434FAD6A670A5EDE91999EDE1F9C3F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDEE49BEDC9811D5845D20C12036A1F /* CocoaAsyncSocket.framework */; };
 		255C4ADB2BD82FEEF86A3D4D43F31C63 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824186179C6F21E1D66A78CE472C3D36 /* ISO8601DateTransform.swift */; };
 		27156C9092B7A82E24CF96312A941150 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA21B83428AA47CFB9DF410399B52D1 /* TransformType.swift */; };
 		2847B760F2CFD163B2DDDB44B8F616F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */; };
-		2893512BF46A1497BACB25684909125C /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533BC7B4C6EE2D7AB26E71248286D93 /* Strategy.swift */; };
-		2BF83D6B8F4B5245DEE3FA7665E5EB22 /* hash-extra-groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = D88F3FE2044DF273D59A082AA5442408 /* hash-extra-groestl.c */; };
 		2D89AB26203628C04B3E87D045525701 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA934B2CD3A95800359F448DA619BA33 /* MapError.swift */; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */; };
-		340004D548721B2EAC6F29A3B69A8C87 /* CCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4ACAF866A08E7EC73FD2237A04F782 /* CCBridge.m */; };
-		37B7373E4DCA085321D8FBCD37FBFCCF /* hash-extra-blake.c in Sources */ = {isa = PBXBuildFile; fileRef = C47E4EF27F1D3236C16309F9DB2818D0 /* hash-extra-blake.c */; };
+		3420AE40ACDFF370FFBBEFA0CC00CF8A /* XMRMiner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2C372A534B3D22E137772E661A1C95 /* XMRMiner-dummy.m */; };
 		3C351598D9544468259473F3C78487BA /* Pods-XMRMiner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C38DE7C09E92AC68C6798EE3D389BA /* Pods-XMRMiner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4215D7313CE6E738AAD80E9FEC6C60CC /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788B1FF441BAA28BC5CE4CD476A7F5E /* DateFormatterTransform.swift */; };
 		451EE305623A7934431AC9065F5B0C50 /* Pods-XMRMiner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CC1556B2B2E8E4E5A6012D144D0FB6 /* Pods-XMRMiner_Example-dummy.m */; };
 		452785B89674C7F2FE91C41E359DE347 /* NSData+FastHex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F572519ADAF465392E45A2E5F608B /* NSData+FastHex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		472F826024957CDD29925EB3CD5BBC00 /* NSData+FastHex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A5087F8E69CCA904B3319F7B7E1C0B /* NSData+FastHex-dummy.m */; };
-		4F8540C04352901413910D6A412EE32C /* slow-hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 82714E204D8CFC1AB362F87834EE7E77 /* slow-hash.c */; };
+		47C616E1E26F1ABFF51108335CFA111E /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA48BDF802F9F8699AC96121A0ED62 /* Miner.swift */; };
 		551FB4DF0E5072BB849BB4FCE74F7361 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736A6FC7145FE3A40A08D3D1ACCD7AD /* HexColorTransform.swift */; };
 		59109302859941E04E87DC7044DFEE89 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92408CF61DDB40AAA4DA767093395 /* ObjectMapper-dummy.m */; };
-		6245850FF6E6A9A1CC4BFF36A046B184 /* hash-extra-jh.c in Sources */ = {isa = PBXBuildFile; fileRef = 846881390D717CD4E32CF4639684EB71 /* hash-extra-jh.c */; };
+		6081175DE603F5FBB0B4FAFD525E2FE5 /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648648ED4275E69EF63E47A1558792B /* RPCRequest.swift */; };
 		67A4D8A24085ADC44A65404E73461B43 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4B17698FDD8798DF083D4D0D4BE76 /* Mappable.swift */; };
+		6B953B4DD016383A9571FA39DBD76653 /* jh_ansi_opt64.c in Sources */ = {isa = PBXBuildFile; fileRef = B2B10E211A0616F7564885F333B79B07 /* jh_ansi_opt64.c */; };
 		6C2FE27FDBD6621AAB57E4082419C347 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0B7E23D4C9948649D6170CF5008A8 /* NSDecimalNumberTransform.swift */; };
 		706840688BA7E9BDE5F4DD2C0E558835 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2FF5298B422C371122384BE901739 /* EnumOperators.swift */; };
-		7351DD331FDE1C8462308B6A8CB7B555 /* SinglePoolStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B761B25C9AFB1B11C71BAE47C3A02 /* SinglePoolStrategy.swift */; };
 		77CA4CD47748C0B69982A6D82C2799D5 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD094BCC3AEA24825D34FD2C6C46F2 /* Mapper.swift */; };
 		78C198E9BB56FB59BD494C8FA759645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */; };
+		7A8249B65312BA2E290108E8AC3835F2 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = FB915D0A52A2CCB78BF0607A21D9FFC9 /* blake.c */; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5644F745CE79CB9FF0D4F34B53EBE161 /* CocoaAsyncSocket-dummy.m */; };
-		7E7D6128ACEC3B77D771454C1876D312 /* XMRMiner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2C372A534B3D22E137772E661A1C95 /* XMRMiner-dummy.m */; };
-		81319DA3B92BB93C00B9AD2C6C1EA90B /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 7595A3E032F97CC8AB02B7844999953B /* hash.c */; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CEB18CB808384B780F13447ADE4B3A /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8518A6B192CA371C650F19D1A4FAA73C /* jh.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D1644306A6DCC7412AC7B8A9C484368 /* jh.c */; };
-		8822209F78D01E67012E67E3AF7AADE1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC2DF3CA4C5CADDFB367FE7D8E0111 /* Job.swift */; };
-		91C317DF3DBC3695D6F06F77CC39A438 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = 3283AAAF89228BA5258BACCF19498AF1 /* keccak.c */; };
-		96479BE55016278CAD927BCD69877C96 /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A5B29DFE3CCF3931F5C2BAAB452574 /* RPCResponse.swift */; };
+		84DA9C3FB65A1FD7683EA35A4CD3BDAD /* MinerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86096C3E0244358EDCA270E34FF8579 /* MinerStats.swift */; };
+		868AC2A8C34ECD377157C370DFB7E1E8 /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2283769B4ECF7F460389D2231BA6921 /* RPCResponse.swift */; };
+		9B14D0ECF1CBB618EB7CBE0972037500 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = F96C01347C0C7DB56B52216612EC41BC /* skein.c */; };
 		A128DBCF691E0F4D2AC3EEA36F7BD562 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85D66AB7DED2293D434C2EDA064E556 /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5BFC49ED41BC416BEBF4772517AB741 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F4C6B85EF1A12952FFBEE96A8D442 /* Map.swift */; };
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B632A3ABC5BD13DCFB84DEEABF4BB4 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9A7A3D4074D4DA187C0680A918DED42 /* SinglePoolStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C7F1AE6D36787D9CD75303024BE973 /* SinglePoolStrategy.swift */; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 03370DF76578CA8A44C9A556306ACB28 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C859B5216DE50271E85FDCA77622B8 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B2EFEFFB34D517F8E9A203B674AEBD13 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF79E27ADCD7B15DEDA6BAE4CDCDC1 /* DictionaryTransform.swift */; };
-		B58EBB1219D656CBBBA46A5873E12BCF /* blake256.c in Sources */ = {isa = PBXBuildFile; fileRef = DF122D01BDD6F972BC3C29EFE192D789 /* blake256.c */; };
+		B59E196832AAB59EF81639805C43FF6D /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9610064E5EABDD0981CCDE3EDACD3 /* HashContext.mm */; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CC5EF37351F9E2DBE01D645FC33924 /* Security.framework */; };
 		B9C39C539A810D1958AEEF1AEC0FD75C /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98737808C0C148B7D03A160152F62E98 /* ImmutableMappable.swift */; };
-		BD52D355BBEF815334CA7B1DA775337E /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = E08E6E73295C3F4D6E49576EC63F9506 /* groestl.c */; };
+		BB6D6784BAF68C06318240B19885F78B /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = A30BDC82ED2F761C3C10372F7BFF082A /* keccak.c */; };
+		C310DB2E4726D88494C69ED2D5CBC7E1 /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 05540EA790556C0B99917B3FB57836A7 /* groestl.c */; };
+		C4B058EB3FC85B718A5551F6224B55B2 /* CCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F8F11BC42537C19A7CF7EBEDEF3910 /* CCBridge.m */; };
 		CCE255D0ACC50FBA1C95895C3A0226F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867AF20818C71A88C8C7520037AEAC2 /* CFNetwork.framework */; };
+		D055289C7FA6247B92B252544266E6BA /* cryptonight.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A893E52539CCA307E4EA0E52350748E /* cryptonight.c */; };
 		D64BA9117593BFC53029DD30EFF1E877 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD6244B710D6FE2DDB6B0A9C5BDF038 /* ObjectMapper.framework */; };
 		DB319D12979D2460D5974745F06E8924 /* NSData+FastHex.h in Headers */ = {isa = PBXBuildFile; fileRef = FA33397256CA90DA58CCD1E60431BCC5 /* NSData+FastHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB87FF0D3B17ABB5452FDD4D70C9A84D /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6116754367598EB0051F6B347AC179 /* FromJSON.swift */; };
-		DB8CE2F1E55D9E3B1189F95E760C5004 /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF0C5A88F1033A274CC26A40D10097 /* RPCObject.swift */; };
 		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BFB5444F6C23C2C9904E420DA7820B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4BD1A42A31FA23257C74EC8BF8C240C /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53DDAF0FF6DF4F17E717BD50962F76 /* Miner.swift */; };
 		EA67527CAF7ED571C8A84B66DDD70FBE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89463D977C11F5E0430AA998AD2521D /* Operators.swift */; };
 		EC1A896625476730D64BF9645624BBAD /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B15535C0E1C2EFF1190B0E4EC5994 /* DataTransform.swift */; };
-		ED5BCA14FE2E356A48A1FBF8593300C2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB637FCB9762995EF7F4746A3CC9A8 /* Client.swift */; };
 		F527B0A072DFD754B471E4C1F6B16C48 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5967DA4F50C97317A4A71A7BE0361E2F /* URLTransform.swift */; };
 		F9B63BDA169DB048D41DA8395261AEBA /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FEB10D0FF4E108DC3962475708865 /* DateTransform.swift */; };
 		FCE734BD83FB03D3DC9F8AA843ECD73B /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECCE726BB7ABF942894E657328FC1E /* EnumTransform.swift */; };
+		FDC526862410D341745F75261D4550B8 /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38489E26989D2B64E1B978939B60C171 /* RPCObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,53 +134,45 @@
 		005FEB10D0FF4E108DC3962475708865 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
 		0300EE1AAF907DC1871B895630FF9A6D /* NSData+FastHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+FastHex.m"; sourceTree = "<group>"; };
 		03370DF76578CA8A44C9A556306ACB28 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		04EFD8086F514DAB67E77B5C86121AAC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFD8086F514DAB67E77B5C86121AAC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05540EA790556C0B99917B3FB57836A7 /* groestl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
 		0867AF20818C71A88C8C7520037AEAC2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		09E4B17698FDD8798DF083D4D0D4BE76 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
 		0C4091CFB5183B119FA5064054084663 /* NSData+FastHex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex-prefix.pch"; sourceTree = "<group>"; };
-		0C53DDAF0FF6DF4F17E717BD50962F76 /* Miner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
-		0C635FFD1C8242CBAEB6E871EBC1A370 /* Pods_XMRMiner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMRMiner_Example.framework; path = "Pods-XMRMiner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C635FFD1C8242CBAEB6E871EBC1A370 /* Pods_XMRMiner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRMiner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA21B83428AA47CFB9DF410399B52D1 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
 		11BFB5444F6C23C2C9904E420DA7820B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		16C64B30CE4A61BC5742FF8858E238CB /* HashContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HashContext.h; sourceTree = "<group>"; };
 		1788B1FF441BAA28BC5CE4CD476A7F5E /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
 		18A0F7D3FF40933E5FD689C6472C89E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1BCB637FCB9762995EF7F4746A3CC9A8 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		1A893E52539CCA307E4EA0E52350748E /* cryptonight.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = cryptonight.c; sourceTree = "<group>"; };
 		1C6116754367598EB0051F6B347AC179 /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
 		20D90B62208F99CB3D579613A399967D /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
 		2480A2F1482C59BBEE0C9BD22CAD2057 /* NSData+FastHex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSData+FastHex.xcconfig"; sourceTree = "<group>"; };
-		279C11E7E36D58BF92F8E624478CB955 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		279C11E7E36D58BF92F8E624478CB955 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C38DE7C09E92AC68C6798EE3D389BA /* Pods-XMRMiner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMRMiner_Example-umbrella.h"; sourceTree = "<group>"; };
 		29E06B71D910724895BFCF2194A80C2C /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
 		2A0F572519ADAF465392E45A2E5F608B /* NSData+FastHex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex-umbrella.h"; sourceTree = "<group>"; };
 		2D28F1AF6D5D8707788060D8272D0DFC /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		3283AAAF89228BA5258BACCF19498AF1 /* keccak.c */ = {isa = PBXFileReference; includeInIndex = 1; path = keccak.c; sourceTree = "<group>"; };
-		34D10E43C2A8B8C09BD2BE0E5BB279DA /* HashContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = HashContext.mm; sourceTree = "<group>"; };
-		3533BC7B4C6EE2D7AB26E71248286D93 /* Strategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		3648648ED4275E69EF63E47A1558792B /* RPCRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCRequest.swift; sourceTree = "<group>"; };
+		38489E26989D2B64E1B978939B60C171 /* RPCObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCObject.swift; sourceTree = "<group>"; };
 		3BD92408CF61DDB40AAA4DA767093395 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
-		3D2091D3739F8009E9F542BFB556C731 /* RPCNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCNotification.swift; sourceTree = "<group>"; };
-		3F9E4E8355F173B3542FC289F4325D46 /* oaes_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = oaes_lib.c; sourceTree = "<group>"; };
 		43AF66FB0F3C261847E2061972281475 /* Pods-XMRMiner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMRMiner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		481F603E74BCCFF2CE301068049B0B55 /* Job.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		499F4C6B85EF1A12952FFBEE96A8D442 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
 		4AE9FD405D5664CF5D51F72E8F157FE2 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
-		4C916C3AFEEAD23E2F89C60CFD25B6F7 /* skein.c */ = {isa = PBXFileReference; includeInIndex = 1; path = skein.c; sourceTree = "<group>"; };
-		4CBC2DF3CA4C5CADDFB367FE7D8E0111 /* Job.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
-		4E4ACAF866A08E7EC73FD2237A04F782 /* CCBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCBridge.m; sourceTree = "<group>"; };
+		4BEA48BDF802F9F8699AC96121A0ED62 /* Miner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
+		4CE9610064E5EABDD0981CCDE3EDACD3 /* HashContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = HashContext.mm; sourceTree = "<group>"; };
 		51AA90E595216C06B839B91B99EC4652 /* NSData_FastHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_FastHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B632A3ABC5BD13DCFB84DEEABF4BB4 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		55ABF34CA54EE7CFDD838B0031FDDDA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5644F745CE79CB9FF0D4F34B53EBE161 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
-		58A5B29DFE3CCF3931F5C2BAAB452574 /* RPCResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCResponse.swift; sourceTree = "<group>"; };
 		5967DA4F50C97317A4A71A7BE0361E2F /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
 		59CC1556B2B2E8E4E5A6012D144D0FB6 /* Pods-XMRMiner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMRMiner_Example-dummy.m"; sourceTree = "<group>"; };
 		5CDA54B98FCB96AE9A51835ACEE77BCC /* XMRMiner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRMiner.xcconfig; sourceTree = "<group>"; };
 		65132239A9A5003848830F1930BF1FEA /* XMRMiner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRMiner-prefix.pch"; sourceTree = "<group>"; };
-		698B761B25C9AFB1B11C71BAE47C3A02 /* SinglePoolStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinglePoolStrategy.swift; sourceTree = "<group>"; };
 		6C849353E25F58730F8D0FC7D51F3A34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D1644306A6DCC7412AC7B8A9C484368 /* jh.c */ = {isa = PBXFileReference; includeInIndex = 1; path = jh.c; sourceTree = "<group>"; };
 		7245AD3B72E36B43DF9CCEAFB09F37D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E2FF5298B422C371122384BE901739 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
-		7595A3E032F97CC8AB02B7844999953B /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; path = hash.c; sourceTree = "<group>"; };
 		769072F0504104E6775A6085C99D51D0 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
 		77C859B5216DE50271E85FDCA77622B8 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		7BD6244B710D6FE2DDB6B0A9C5BDF038 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,47 +180,51 @@
 		81B0B7E23D4C9948649D6170CF5008A8 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
 		82346B1A8AF01AC1EAE94E79952AAF22 /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
 		824186179C6F21E1D66A78CE472C3D36 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
-		82714E204D8CFC1AB362F87834EE7E77 /* slow-hash.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "slow-hash.c"; sourceTree = "<group>"; };
-		846881390D717CD4E32CF4639684EB71 /* hash-extra-jh.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "hash-extra-jh.c"; sourceTree = "<group>"; };
 		8943C759D5E81ED9F88581D9CF8461FB /* Pods-XMRMiner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMRMiner_Example-frameworks.sh"; sourceTree = "<group>"; };
-		919095CB620176EC3DCB75D7CE210EE1 /* XMRMiner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XMRMiner.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95EFF1CB5B6C477792BF70202A1F5381 /* XMRMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMRMiner.framework; path = XMRMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFCA1781055ADA5D776EA05AE9DF38F /* HashContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HashContext.h; sourceTree = "<group>"; };
+		919095CB620176EC3DCB75D7CE210EE1 /* XMRMiner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XMRMiner.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EFF1CB5B6C477792BF70202A1F5381 /* XMRMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMRMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98737808C0C148B7D03A160152F62E98 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
 		9902CC717630134281D9EE05BEA95FAC /* XMRMiner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRMiner-umbrella.h"; sourceTree = "<group>"; };
 		9BDEE49BEDC9811D5845D20C12036A1F /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30BDC82ED2F761C3C10372F7BFF082A /* keccak.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
 		A3A5087F8E69CCA904B3319F7B7E1C0B /* NSData+FastHex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+FastHex-dummy.m"; sourceTree = "<group>"; };
 		A4888BC42874FADD1E45430E444E6FF2 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		A8AD094BCC3AEA24825D34FD2C6C46F2 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
-		AE4F7AD3474F48720FD0187914C79BDF /* NSData+FastHex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSData+FastHex.modulemap"; sourceTree = "<group>"; };
+		AB10D46AC6D2BB9F92F23D50A71D27E6 /* oaes_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = oaes_lib.c; sourceTree = "<group>"; };
+		AE4F7AD3474F48720FD0187914C79BDF /* NSData+FastHex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSData+FastHex.modulemap"; sourceTree = "<group>"; };
+		B1C7F1AE6D36787D9CD75303024BE973 /* SinglePoolStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinglePoolStrategy.swift; sourceTree = "<group>"; };
+		B2B10E211A0616F7564885F333B79B07 /* jh_ansi_opt64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = jh_ansi_opt64.c; sourceTree = "<group>"; };
 		B5CD82B741885D703C19D5B76768A414 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
-		B658A33503D406E2A8E808FF915F2173 /* hash-extra-skein.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "hash-extra-skein.c"; sourceTree = "<group>"; };
 		B84F5605B070213F2245169D50E4990C /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
-		B915FC0B6EF6074369692C595875CE95 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		C47E4EF27F1D3236C16309F9DB2818D0 /* hash-extra-blake.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "hash-extra-blake.c"; sourceTree = "<group>"; };
+		B915FC0B6EF6074369692C595875CE95 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		C5CEB18CB808384B780F13447ADE4B3A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C6B1AE935B6EFF08DCAA85BB09EA9B51 /* Strategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		C6CC5EF37351F9E2DBE01D645FC33924 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		C736A6FC7145FE3A40A08D3D1ACCD7AD /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
-		D3AF0C5A88F1033A274CC26A40D10097 /* RPCObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCObject.swift; sourceTree = "<group>"; };
+		C86096C3E0244358EDCA270E34FF8579 /* MinerStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MinerStats.swift; sourceTree = "<group>"; };
+		C9F8F11BC42537C19A7CF7EBEDEF3910 /* CCBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCBridge.m; sourceTree = "<group>"; };
+		CA738E8D47FB4F293ED3539FBE80C7DD /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		D7FF79E27ADCD7B15DEDA6BAE4CDCDC1 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
 		D85D66AB7DED2293D434C2EDA064E556 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
-		D88F3FE2044DF273D59A082AA5442408 /* hash-extra-groestl.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "hash-extra-groestl.c"; sourceTree = "<group>"; };
 		D89463D977C11F5E0430AA998AD2521D /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
 		DA934B2CD3A95800359F448DA619BA33 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
-		DBCF7043230E26FD77A67400F2093968 /* Pods-XMRMiner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMRMiner_Example.modulemap"; sourceTree = "<group>"; };
-		DF122D01BDD6F972BC3C29EFE192D789 /* blake256.c */ = {isa = PBXFileReference; includeInIndex = 1; path = blake256.c; sourceTree = "<group>"; };
+		DBCF7043230E26FD77A67400F2093968 /* Pods-XMRMiner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMRMiner_Example.modulemap"; sourceTree = "<group>"; };
+		DBE4A13EEABD3C9198DD4999668CDB4D /* RPCNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCNotification.swift; sourceTree = "<group>"; };
 		DFD8A03AB3D798E19AB7504502E11F37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E08E6E73295C3F4D6E49576EC63F9506 /* groestl.c */ = {isa = PBXFileReference; includeInIndex = 1; path = groestl.c; sourceTree = "<group>"; };
 		E56B15535C0E1C2EFF1190B0E4EC5994 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Sources/DataTransform.swift; sourceTree = "<group>"; };
 		E6161343E59572FF4903495FBE048192 /* Pods-XMRMiner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMRMiner_Example-resources.sh"; sourceTree = "<group>"; };
-		E706485350CB094E34C6DF39A46DB0CD /* RPCRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCRequest.swift; sourceTree = "<group>"; };
 		EE1A2E41453D98C4AA7B7782CC208CD7 /* Pods-XMRMiner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMRMiner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFB17244581227528AE823A6AE70ADAB /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		EFB17244581227528AE823A6AE70ADAB /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
 		F03C0F587E28EE4BE3C886A0A83784DF /* Pods-XMRMiner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMRMiner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2283769B4ECF7F460389D2231BA6921 /* RPCResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCResponse.swift; sourceTree = "<group>"; };
 		F3ECCE726BB7ABF942894E657328FC1E /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
 		F6B580CF1F71FD4081B1CD96CA1759BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96C01347C0C7DB56B52216612EC41BC /* skein.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = skein.c; sourceTree = "<group>"; };
 		FA33397256CA90DA58CCD1E60431BCC5 /* NSData+FastHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex.h"; sourceTree = "<group>"; };
-		FAEAB299A3849F50E5963B43280EAD9E /* NSData_FastHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSData_FastHex.framework; path = "NSData+FastHex.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEAB299A3849F50E5963B43280EAD9E /* NSData_FastHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_FastHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB915D0A52A2CCB78BF0607A21D9FFC9 /* blake.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
 		FE2C372A534B3D22E137772E661A1C95 /* XMRMiner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRMiner-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,27 +291,6 @@
 			path = "Example/Pods/Target Support Files/XMRMiner";
 			sourceTree = "<group>";
 		};
-		045E4DCBDAC65395AD3101540F8703B6 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				B2912E7FCF66BDF18E7A9B613ECBFE57 /* crypto */,
-			);
-			name = Vendor;
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		06612876572A117184D03BBC89E463EE /* RPC */ = {
-			isa = PBXGroup;
-			children = (
-				3D2091D3739F8009E9F542BFB556C731 /* RPCNotification.swift */,
-				D3AF0C5A88F1033A274CC26A40D10097 /* RPCObject.swift */,
-				E706485350CB094E34C6DF39A46DB0CD /* RPCRequest.swift */,
-				58A5B29DFE3CCF3931F5C2BAAB452574 /* RPCResponse.swift */,
-			);
-			name = RPC;
-			path = RPC;
-			sourceTree = "<group>";
-		};
 		1B8E8423844B52788AEAE9DE0C1F7BA2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,17 +308,21 @@
 				77C859B5216DE50271E85FDCA77622B8 /* GCDAsyncUdpSocket.m */,
 				CF4B89E7EC48226C5D9D6C0A0184BA93 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		252C5977A6700F28F9E79D36228BB9BB /* Source */ = {
+		29E9CA8B4C09D0BE9AF6B50A6660ED9C /* crypto */ = {
 			isa = PBXGroup;
 			children = (
-				C0A9A1929CEB13140BCC92A20E3F8B95 /* Classes */,
+				FB915D0A52A2CCB78BF0607A21D9FFC9 /* blake.c */,
+				1A893E52539CCA307E4EA0E52350748E /* cryptonight.c */,
+				05540EA790556C0B99917B3FB57836A7 /* groestl.c */,
+				A30BDC82ED2F761C3C10372F7BFF082A /* keccak.c */,
+				AB10D46AC6D2BB9F92F23D50A71D27E6 /* oaes_lib.c */,
+				F96C01347C0C7DB56B52216612EC41BC /* skein.c */,
+				D6D1A811357B3AED63B796710A247FDF /* jh */,
 			);
-			name = Source;
-			path = Source;
+			path = crypto;
 			sourceTree = "<group>";
 		};
 		336DCA6D6CD8E07509B4FB63E8B51206 /* NSData+FastHex */ = {
@@ -357,8 +332,18 @@
 				0300EE1AAF907DC1871B895630FF9A6D /* NSData+FastHex.m */,
 				9E194872F34D99D16604C0F6FB491D00 /* Support Files */,
 			);
-			name = "NSData+FastHex";
 			path = "NSData+FastHex";
+			sourceTree = "<group>";
+		};
+		3E975FA4FC133251C33E86773A57CF92 /* RPC */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4A13EEABD3C9198DD4999668CDB4D /* RPCNotification.swift */,
+				38489E26989D2B64E1B978939B60C171 /* RPCObject.swift */,
+				3648648ED4275E69EF63E47A1558792B /* RPCRequest.swift */,
+				F2283769B4ECF7F460389D2231BA6921 /* RPCResponse.swift */,
+			);
+			path = RPC;
 			sourceTree = "<group>";
 		};
 		444FA313F3A681D7AE098A0C01E3F84B /* iOS */ = {
@@ -383,6 +368,17 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ObjectMapper";
+			sourceTree = "<group>";
+		};
+		513FB5CA3A8A8700B4A32BD3C9A39ACD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CA738E8D47FB4F293ED3539FBE80C7DD /* Client.swift */,
+				BAE46B98AA993E9CEB4F0EB2C2819CDE /* Model */,
+				3E975FA4FC133251C33E86773A57CF92 /* RPC */,
+				F660ACBAD4B8233DCEE259D809FCDFC2 /* Strategies */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		556E594500903AC3315D8DB08783DDD1 /* ObjectMapper */ = {
@@ -413,19 +409,15 @@
 				5967DA4F50C97317A4A71A7BE0361E2F /* URLTransform.swift */,
 				4F3FACC10E434EB18CC525C9C4C4FD03 /* Support Files */,
 			);
-			name = ObjectMapper;
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
-		61568234ED314F1D991C1EA7F3F9116A /* Hashing */ = {
+		58B05BFCAF83AC0393A07705D6BBB99F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4E4ACAF866A08E7EC73FD2237A04F782 /* CCBridge.m */,
-				16C64B30CE4A61BC5742FF8858E238CB /* HashContext.h */,
-				34D10E43C2A8B8C09BD2BE0E5BB279DA /* HashContext.mm */,
+				79B4AB7AD96781334165BE9D29FBB37C /* Classes */,
 			);
-			name = Hashing;
-			path = Hashing;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		73CF2E42E73839B1436C1E737ECCD120 /* XMRMiner */ = {
@@ -436,6 +428,17 @@
 			);
 			name = XMRMiner;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		79B4AB7AD96781334165BE9D29FBB37C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA48BDF802F9F8699AC96121A0ED62 /* Miner.swift */,
+				C86096C3E0244358EDCA270E34FF8579 /* MinerStats.swift */,
+				B7AE814A07C8758BCE039E383808729E /* Hashing */,
+				513FB5CA3A8A8700B4A32BD3C9A39ACD /* Network */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7AA2A97FFE4048E7DCDA0D86FA79DB55 /* Development Pods */ = {
@@ -479,13 +482,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		99D686858B43B2E6D15F1FBCBA2B56A0 /* Model */ = {
+		93BBE4815A2617ACC616CE1021A807FA /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4CBC2DF3CA4C5CADDFB367FE7D8E0111 /* Job.swift */,
+				29E9CA8B4C09D0BE9AF6B50A6660ED9C /* crypto */,
 			);
-			name = Model;
-			path = Model;
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 		9E194872F34D99D16604C0F6FB491D00 /* Support Files */ = {
@@ -514,67 +516,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1070A0045B41A715048DC0A7E1D06DF /* Strategies */ = {
+		B7AE814A07C8758BCE039E383808729E /* Hashing */ = {
 			isa = PBXGroup;
 			children = (
-				698B761B25C9AFB1B11C71BAE47C3A02 /* SinglePoolStrategy.swift */,
-				3533BC7B4C6EE2D7AB26E71248286D93 /* Strategy.swift */,
+				C9F8F11BC42537C19A7CF7EBEDEF3910 /* CCBridge.m */,
+				8AFCA1781055ADA5D776EA05AE9DF38F /* HashContext.h */,
+				4CE9610064E5EABDD0981CCDE3EDACD3 /* HashContext.mm */,
 			);
-			name = Strategies;
-			path = Strategies;
+			path = Hashing;
 			sourceTree = "<group>";
 		};
-		B2912E7FCF66BDF18E7A9B613ECBFE57 /* crypto */ = {
+		BAE46B98AA993E9CEB4F0EB2C2819CDE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DF122D01BDD6F972BC3C29EFE192D789 /* blake256.c */,
-				E08E6E73295C3F4D6E49576EC63F9506 /* groestl.c */,
-				7595A3E032F97CC8AB02B7844999953B /* hash.c */,
-				C47E4EF27F1D3236C16309F9DB2818D0 /* hash-extra-blake.c */,
-				D88F3FE2044DF273D59A082AA5442408 /* hash-extra-groestl.c */,
-				846881390D717CD4E32CF4639684EB71 /* hash-extra-jh.c */,
-				B658A33503D406E2A8E808FF915F2173 /* hash-extra-skein.c */,
-				6D1644306A6DCC7412AC7B8A9C484368 /* jh.c */,
-				3283AAAF89228BA5258BACCF19498AF1 /* keccak.c */,
-				3F9E4E8355F173B3542FC289F4325D46 /* oaes_lib.c */,
-				4C916C3AFEEAD23E2F89C60CFD25B6F7 /* skein.c */,
-				82714E204D8CFC1AB362F87834EE7E77 /* slow-hash.c */,
+				481F603E74BCCFF2CE301068049B0B55 /* Job.swift */,
 			);
-			name = crypto;
-			path = crypto;
-			sourceTree = "<group>";
-		};
-		B7CAE5D71FC4E73EAC76353B23F52AEC /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				1BCB637FCB9762995EF7F4746A3CC9A8 /* Client.swift */,
-				99D686858B43B2E6D15F1FBCBA2B56A0 /* Model */,
-				06612876572A117184D03BBC89E463EE /* RPC */,
-				B1070A0045B41A715048DC0A7E1D06DF /* Strategies */,
-			);
-			name = Network;
-			path = Network;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C06D70DC997313C8CDC472AB70DF956A /* XMRMiner */ = {
 			isa = PBXGroup;
 			children = (
-				252C5977A6700F28F9E79D36228BB9BB /* Source */,
-				045E4DCBDAC65395AD3101540F8703B6 /* Vendor */,
+				58B05BFCAF83AC0393A07705D6BBB99F /* Source */,
+				93BBE4815A2617ACC616CE1021A807FA /* Vendor */,
 			);
-			name = XMRMiner;
 			path = XMRMiner;
-			sourceTree = "<group>";
-		};
-		C0A9A1929CEB13140BCC92A20E3F8B95 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0C53DDAF0FF6DF4F17E717BD50962F76 /* Miner.swift */,
-				61568234ED314F1D991C1EA7F3F9116A /* Hashing */,
-				B7CAE5D71FC4E73EAC76353B23F52AEC /* Network */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		CF4B89E7EC48226C5D9D6C0A0184BA93 /* Support Files */ = {
@@ -589,6 +555,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		D6D1A811357B3AED63B796710A247FDF /* jh */ = {
+			isa = PBXGroup;
+			children = (
+				B2B10E211A0616F7564885F333B79B07 /* jh_ansi_opt64.c */,
+			);
+			path = jh;
 			sourceTree = "<group>";
 		};
 		D824FAAAFA128E8231C39198D97EE0FA /* Pods-XMRMiner_Example */ = {
@@ -607,6 +581,15 @@
 			);
 			name = "Pods-XMRMiner_Example";
 			path = "Target Support Files/Pods-XMRMiner_Example";
+			sourceTree = "<group>";
+		};
+		F660ACBAD4B8233DCEE259D809FCDFC2 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				B1C7F1AE6D36787D9CD75303024BE973 /* SinglePoolStrategy.swift */,
+				C6B1AE935B6EFF08DCAA85BB09EA9B51 /* Strategy.swift */,
+			);
+			path = Strategies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -663,7 +646,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7336AAD0A7A005B4E3E166FFFDCA922 /* Build configuration list for PBXNativeTarget "XMRMiner" */;
 			buildPhases = (
-				EFECBDD07E4A7CFBF77D4B2BFF91533E /* Sources */,
+				4F9C343C215E2A3EB651D389406A8EBD /* Sources */,
 				4AEEE6BF33603527C7011F47C9A8B6AE /* Frameworks */,
 				6242FB640F28B00B30F010DA66587644 /* Headers */,
 			);
@@ -782,6 +765,33 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4F9C343C215E2A3EB651D389406A8EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8249B65312BA2E290108E8AC3835F2 /* blake.c in Sources */,
+				C4B058EB3FC85B718A5551F6224B55B2 /* CCBridge.m in Sources */,
+				09A75F0EC7382A9F8A3E70D9BA69AEEF /* Client.swift in Sources */,
+				D055289C7FA6247B92B252544266E6BA /* cryptonight.c in Sources */,
+				C310DB2E4726D88494C69ED2D5CBC7E1 /* groestl.c in Sources */,
+				B59E196832AAB59EF81639805C43FF6D /* HashContext.mm in Sources */,
+				6B953B4DD016383A9571FA39DBD76653 /* jh_ansi_opt64.c in Sources */,
+				1E506A3FC643216ECC63D5F82CA359FA /* Job.swift in Sources */,
+				BB6D6784BAF68C06318240B19885F78B /* keccak.c in Sources */,
+				47C616E1E26F1ABFF51108335CFA111E /* Miner.swift in Sources */,
+				84DA9C3FB65A1FD7683EA35A4CD3BDAD /* MinerStats.swift in Sources */,
+				07F57026DE7BCC4ED5880B455E683EB2 /* oaes_lib.c in Sources */,
+				142299AE0F1578E9C50CC1C08C8E98BD /* RPCNotification.swift in Sources */,
+				FDC526862410D341745F75261D4550B8 /* RPCObject.swift in Sources */,
+				6081175DE603F5FBB0B4FAFD525E2FE5 /* RPCRequest.swift in Sources */,
+				868AC2A8C34ECD377157C370DFB7E1E8 /* RPCResponse.swift in Sources */,
+				A9A7A3D4074D4DA187C0680A918DED42 /* SinglePoolStrategy.swift in Sources */,
+				9B14D0ECF1CBB618EB7CBE0972037500 /* skein.c in Sources */,
+				174CD6E5B321089BAEABE640E8B66D09 /* Strategy.swift in Sources */,
+				3420AE40ACDFF370FFBBEFA0CC00CF8A /* XMRMiner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7004A06917900254676FD74BDA03C2BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -796,37 +806,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				451EE305623A7934431AC9065F5B0C50 /* Pods-XMRMiner_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFECBDD07E4A7CFBF77D4B2BFF91533E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B58EBB1219D656CBBBA46A5873E12BCF /* blake256.c in Sources */,
-				340004D548721B2EAC6F29A3B69A8C87 /* CCBridge.m in Sources */,
-				ED5BCA14FE2E356A48A1FBF8593300C2 /* Client.swift in Sources */,
-				BD52D355BBEF815334CA7B1DA775337E /* groestl.c in Sources */,
-				37B7373E4DCA085321D8FBCD37FBFCCF /* hash-extra-blake.c in Sources */,
-				2BF83D6B8F4B5245DEE3FA7665E5EB22 /* hash-extra-groestl.c in Sources */,
-				6245850FF6E6A9A1CC4BFF36A046B184 /* hash-extra-jh.c in Sources */,
-				12D75DBE56C4E73FADE318521C9CEB28 /* hash-extra-skein.c in Sources */,
-				81319DA3B92BB93C00B9AD2C6C1EA90B /* hash.c in Sources */,
-				193613322AC99F834C3CE245C224982B /* HashContext.mm in Sources */,
-				8518A6B192CA371C650F19D1A4FAA73C /* jh.c in Sources */,
-				8822209F78D01E67012E67E3AF7AADE1 /* Job.swift in Sources */,
-				91C317DF3DBC3695D6F06F77CC39A438 /* keccak.c in Sources */,
-				E4BD1A42A31FA23257C74EC8BF8C240C /* Miner.swift in Sources */,
-				0DE83638F5A0DB4136A32E0312551FC7 /* oaes_lib.c in Sources */,
-				1105D65C9890CF9D27BEA31A3167F88C /* RPCNotification.swift in Sources */,
-				DB8CE2F1E55D9E3B1189F95E760C5004 /* RPCObject.swift in Sources */,
-				167A7A617E2514EFE7F69CE5CBCA01F7 /* RPCRequest.swift in Sources */,
-				96479BE55016278CAD927BCD69877C96 /* RPCResponse.swift in Sources */,
-				7351DD331FDE1C8462308B6A8CB7B555 /* SinglePoolStrategy.swift in Sources */,
-				15C9BC6127E40152EBA23FB53BE61394 /* skein.c in Sources */,
-				4F8540C04352901413910D6A412EE32C /* slow-hash.c in Sources */,
-				2893512BF46A1497BACB25684909125C /* Strategy.swift in Sources */,
-				7E7D6128ACEC3B77D771454C1876D312 /* XMRMiner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,42 +937,6 @@
 			};
 			name = Release;
 		};
-		2D05C3EC6CD2F1F5F9E1B5C63E9E7943 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDA54B98FCB96AE9A51835ACEE77BCC /* XMRMiner.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XMRMiner/XMRMiner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMRMiner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XMRMiner/XMRMiner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = XMRMiner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		32AA0F3EBCD09051E586F72274D1A873 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B84F5605B070213F2245169D50E4990C /* ObjectMapper.xcconfig */;
@@ -1099,7 +1042,7 @@
 			};
 			name = Release;
 		};
-		50EEB8958CEC5AC94A7A6EB21DFFCCC6 /* Release */ = {
+		5EDFD71AD547441891966FC05D7942A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CDA54B98FCB96AE9A51835ACEE77BCC /* XMRMiner.xcconfig */;
 			buildSettings = {
@@ -1119,7 +1062,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/XMRMiner/XMRMiner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/XMRMiner/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XMRMiner/XMRMiner.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1290,6 +1233,42 @@
 			};
 			name = Debug;
 		};
+		8E08AADCBACC752EF04BF4B648452DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDA54B98FCB96AE9A51835ACEE77BCC /* XMRMiner.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMRMiner/XMRMiner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMRMiner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMRMiner/XMRMiner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XMRMiner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C03B8870130C98D1B02B59D003687524 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1401,8 +1380,8 @@
 		B7336AAD0A7A005B4E3E166FFFDCA922 /* Build configuration list for PBXNativeTarget "XMRMiner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D05C3EC6CD2F1F5F9E1B5C63E9E7943 /* Debug */,
-				50EEB8958CEC5AC94A7A6EB21DFFCCC6 /* Release */,
+				8E08AADCBACC752EF04BF4B648452DF6 /* Debug */,
+				5EDFD71AD547441891966FC05D7942A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

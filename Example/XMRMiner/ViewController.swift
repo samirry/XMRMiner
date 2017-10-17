@@ -11,11 +11,17 @@ import XMRMiner
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var hashrateLabel: UILabel!
+    @IBOutlet weak var submittedHashesLabel: UILabel!
+    
     var miner = Miner()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.isIdleTimerDisabled = true
+        miner.delegate = self
         miner.start()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,3 +32,9 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: MinerDelegate {
+    func miner(updatedStats stats: MinerStats) {
+        hashrateLabel.text = "\(stats.hashRate) H/s"
+        submittedHashesLabel.text = "\(stats.submittedHashes)"
+    }
+}

@@ -10,9 +10,13 @@ import ObjectMapper
 
 final class RPCRequest: RPCObject {
 
+    // MARK: Properties
+    
     var method: String = ""
     var id: Int = 0
     var params: Any = [:]
+    
+    // MARK: Initialization
     
     init(method: String, id: Int, params: Any) {
         self.method = method
@@ -25,12 +29,13 @@ final class RPCRequest: RPCObject {
         super.init(map: map)
     }
     
+    // MARK: Mapping
+    
     override func mapping(map: Map) {
         super.mapping(map: map)
         method <- map["method"]
         id <- map["id"]
         params <- map["params"]
     }
-    
-    
+
 }

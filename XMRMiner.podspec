@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/nickplee/XMRMiner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.12'
 
-  s.source_files = ['XMRMiner/Source/Classes/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.c']
-  s.private_header_files = ['XMRMiner/Vendor/crypto/**/*.h']
+  s.source_files = ['XMRMiner/Source/Classes/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.{c,cpp,S}']
+  s.private_header_files = ['XMRMiner/Vendor/crypto/**/*.{h,hpp}']
   s.public_header_files = ['XMRMiner/Source/Classes/**/*.h']
 
   # s.resource_bundles = {

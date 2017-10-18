@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var hashrateLabel: UILabel!
     @IBOutlet weak var submittedHashesLabel: UILabel!
     
-    var miner = Miner()
+    let miner = Miner(destinationAddress: "46oUXWagF22GP43Uetur611bzpHiG8z4xPtYoBppGhxAZ51HwCVmfUDfo7maSkyVR2acwwJBzx1MJP8wJvDaNC2NMD9BkxA", clientIdentifier: "\(arc4random())")
     
     override func viewDidLoad() {
         super.viewDidLoad()

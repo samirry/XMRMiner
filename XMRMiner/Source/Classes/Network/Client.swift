@@ -30,7 +30,6 @@ final class Client {
     
     weak var delegate: ClientDelegate?
     let url: URL
-    let agent: String
     
     // MARK: Private Properties
     
@@ -39,9 +38,8 @@ final class Client {
     
     // MARK: Initialization
     
-    public init(url u: URL, agent a: String) {
+    public init(url u: URL) {
         url = u
-        agent = a
         socketDelegate.client = self
         socket = GCDAsyncSocket(delegate: socketDelegate, delegateQueue: .main)
     }
@@ -49,6 +47,9 @@ final class Client {
     // MARK: Network
     
     public func connect() throws {
+        guard socket.isDisconnected else {
+            return
+        }
         try socket.connect(toHost: url.host ?? "", onPort: UInt16(url.port ?? 3333))
     }
     
@@ -64,7 +65,7 @@ final class Client {
             "job_id": jobID,
             "result": (result as NSData).hexStringRepresentationUppercase(false),
             "nonce": (nonceData as NSData).hexStringRepresentationUppercase(false)
-        ])
+            ])
     }
     
 }
@@ -73,15 +74,14 @@ extension Client {
     fileprivate func login() throws {
         try send(method: "login", id: 1, params: [
             "login": url.user ?? "",
-            "pass": url.password ?? "",
-            "agent": agent
+            "pass": url.password ?? ""
             ])
     }
     
     private func send(method: String, id: Int, params: Any) throws {
         let message = RPCRequest(method: method, id: id, params: params)
         guard let json = Mapper().toJSONString(message), let jsonData = json.data(using: .utf8) else {
-            return // TODO: throw something
+            throw MiningError.commandSerializationFailed
         }
         let terminatedData = jsonData + Constants.terminator
         socket.write(terminatedData, withTimeout: 30, tag: Constants.Tags.sendRequest)
@@ -98,12 +98,9 @@ extension Client {
     }
     
     fileprivate func didReceive(response: Data) {
-        
         guard let json = (try? JSONSerialization.jsonObject(with: response, options: [])) as? [String : Any] else {
             return
         }
-        
-        print(json)
         
         if json.keys.contains("result"), let response = Mapper<RPCResponse>().map(JSON: json) { // JSON-RPC Response
             switch response.result {
@@ -130,14 +127,17 @@ extension Client {
         client?.socketConnected()
         client?.receive()
     }
-    //
-    //    func socket(_ sock: GCDAsyncSocket, didWriteDataWithTag tag: Int) {
-    //        switch tag {
-    //        case Client.Constants.Tags.sendRequest:
-    //        default:
-    //            break
-    //        }
-    //    }
+    
+    func socketDidDisconnect(_ sock: GCDAsyncSocket, withError err: Error?) {
+        if err != nil {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)) {
+                do {
+                    try self.client?.connect()
+                }
+                catch {}
+            }
+        }
+    }
     
     func socket(_ sock: GCDAsyncSocket, didRead data: Data, withTag tag: Int) {
         switch tag {

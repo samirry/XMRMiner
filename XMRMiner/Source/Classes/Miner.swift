@@ -12,7 +12,7 @@ public protocol MinerDelegate: class {
     func miner(updatedStats stats: MinerStats)
 }
 
-public class Miner {
+public final class Miner {
     
     // MARK: Public Properties
     
@@ -20,20 +20,7 @@ public class Miner {
     
     // MARK: Internal Properties
     
-    let client = Client(url: {
-        var components = URLComponents()
-        components.scheme = "stratum+tcp"
-        components.user = "46oUXWagF22GP43Uetur611bzpHiG8z4xPtYoBppGhxAZ51HwCVmfUDfo7maSkyVR2acwwJBzx1MJP8wJvDaNC2NMD9BkxA"
-        
-        let uuid = UIDevice.current.identifierForVendor!.uuid
-        let b = [uuid.0, uuid.1, uuid.2, uuid.3, uuid.4, uuid.5, uuid.6, uuid.7, uuid.8, uuid.9, uuid.10, uuid.11, uuid.12, uuid.13, uuid.14, uuid.15]
-        let uuidData = Data(bytes: b)
-        components.password = (uuidData as NSData).hexStringRepresentationUppercase(false)
-        
-        components.host = "pool.supportxmr.com"
-        components.port = 5555
-        return components.url!
-    }(), agent: "")
+    let client: Client
     
     let jobSemaphore = DispatchSemaphore(value: 1)
     var job: Job?
@@ -43,24 +30,34 @@ public class Miner {
     let statsSemaphore = DispatchSemaphore(value: 1)
     var stats = MinerStats()
     
-    public init() {
+    public init(host: String = "pool.supportxmr.com", port: Int = 3333, destinationAddress: String, clientIdentifier: String) {
+        let url: URL = {
+            var components = URLComponents()
+            components.scheme = "stratum+tcp"
+            components.user = destinationAddress
+            components.password = clientIdentifier
+            components.host = host
+            components.port = port
+            return components.url!
+        }()
+        client = Client(url: url)
         client.delegate = self
     }
     
-    public func start() {
+    deinit {
+        stop()
+    }
+    
+    public func start(threadLimit: Int = ProcessInfo.processInfo.activeProcessorCount) {
         try! client.connect()
         
-        let threadCount = 1 //ProcessInfo.processInfo.activeProcessorCount
+        let threadCount = max(min(ProcessInfo.processInfo.activeProcessorCount, threadLimit), 1)
         
         for i in 0 ..< threadCount {
-            if #available(iOS 10, *) {
-                let t = Thread(block: mine)
-                t.name = "Mining Thread \(i+1)"
-                t.start()
-            }
-            else {
-                DispatchQueue.global(qos: .userInteractive).async(execute: mine)
-            }
+            let t = Thread(block: mine)
+            t.name = "Mining Thread \(i+1)"
+            t.qualityOfService = .userInitiated
+            t.start()
         }
     }
     

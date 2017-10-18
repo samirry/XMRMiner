@@ -13,13 +13,20 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		8F090CEE6D99B8523B53AA0E /* Pods_OSXMiner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38D082F661869E50C0B0D13 /* Pods_OSXMiner.framework */; };
+		B81520D11F9675DA006CF790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81520D01F9675DA006CF790 /* AppDelegate.swift */; };
+		B81520D31F9675DA006CF790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81520D21F9675DA006CF790 /* ViewController.swift */; };
+		B81520D51F9675DA006CF790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81520D41F9675DA006CF790 /* Assets.xcassets */; };
+		B81520D81F9675DA006CF790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81520D61F9675DA006CF790 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04CC4C64FEB9777D07F70622 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0CA86951D07C103F80B656FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C4ECFE761D747A92E92F106 /* Pods-xminer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xminer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xminer/Pods-xminer.debug.xcconfig"; sourceTree = "<group>"; };
 		3D1FE4FC8520EAB8630156F4 /* Pods_XMRMiner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRMiner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		435425E409D155732B777013 /* XMRMiner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMRMiner.podspec; path = ../XMRMiner.podspec; sourceTree = "<group>"; };
+		52FAB274B08F738E31687565 /* Pods-OSXMiner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXMiner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XMRMiner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMRMiner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +38,18 @@
 		853535EB4216269780BF4DA0 /* Pods-XMRMiner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Tests/Pods-XMRMiner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8744962E28BDAA6DD1B2D300 /* Pods-XMRMiner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Example/Pods-XMRMiner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A25D2B474368A308335A5919 /* Pods_XMRMiner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRMiner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DBAF51CC0C295A6B905CB4 /* Pods_xminer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xminer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81520CE1F9675DA006CF790 /* OSXMiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXMiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81520D01F9675DA006CF790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B81520D21F9675DA006CF790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B81520D41F9675DA006CF790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B81520D71F9675DA006CF790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B81520D91F9675DA006CF790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81520DA1F9675DA006CF790 /* OSXMiner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OSXMiner.entitlements; sourceTree = "<group>"; };
 		C1AFC77A104D3FAA8A688EC0 /* Pods-XMRMiner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Example/Pods-XMRMiner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C54BDE6ADFE44BC7AF3AB0A1 /* Pods-xminer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xminer.release.xcconfig"; path = "Pods/Target Support Files/Pods-xminer/Pods-xminer.release.xcconfig"; sourceTree = "<group>"; };
+		CB359018E83F326E81E04F12 /* Pods-OSXMiner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXMiner.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner.release.xcconfig"; sourceTree = "<group>"; };
+		E38D082F661869E50C0B0D13 /* Pods_OSXMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B81520CB1F9675DA006CF790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F090CEE6D99B8523B53AA0E /* Pods_OSXMiner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +77,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for XMRMiner */,
+				B81520CF1F9675DA006CF790 /* OSXMiner */,
 				607FACD11AFB9204008FA782 /* Products */,
 				9BCF2A18B0F7BD3EFB730D49 /* Pods */,
 				FD6BA7C1EB677F2AB20E14F1 /* Frameworks */,
@@ -61,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* XMRMiner_Example.app */,
+				B81520CE1F9675DA006CF790 /* OSXMiner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,8 +132,25 @@
 				8744962E28BDAA6DD1B2D300 /* Pods-XMRMiner_Example.release.xcconfig */,
 				832B27D53D1F703C31D203B0 /* Pods-XMRMiner_Tests.debug.xcconfig */,
 				853535EB4216269780BF4DA0 /* Pods-XMRMiner_Tests.release.xcconfig */,
+				3C4ECFE761D747A92E92F106 /* Pods-xminer.debug.xcconfig */,
+				C54BDE6ADFE44BC7AF3AB0A1 /* Pods-xminer.release.xcconfig */,
+				52FAB274B08F738E31687565 /* Pods-OSXMiner.debug.xcconfig */,
+				CB359018E83F326E81E04F12 /* Pods-OSXMiner.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B81520CF1F9675DA006CF790 /* OSXMiner */ = {
+			isa = PBXGroup;
+			children = (
+				B81520D01F9675DA006CF790 /* AppDelegate.swift */,
+				B81520D21F9675DA006CF790 /* ViewController.swift */,
+				B81520D41F9675DA006CF790 /* Assets.xcassets */,
+				B81520D61F9675DA006CF790 /* Main.storyboard */,
+				B81520D91F9675DA006CF790 /* Info.plist */,
+				B81520DA1F9675DA006CF790 /* OSXMiner.entitlements */,
+			);
+			path = OSXMiner;
 			sourceTree = "<group>";
 		};
 		FD6BA7C1EB677F2AB20E14F1 /* Frameworks */ = {
@@ -113,6 +158,8 @@
 			children = (
 				A25D2B474368A308335A5919 /* Pods_XMRMiner_Example.framework */,
 				3D1FE4FC8520EAB8630156F4 /* Pods_XMRMiner_Tests.framework */,
+				A9DBAF51CC0C295A6B905CB4 /* Pods_xminer.framework */,
+				E38D082F661869E50C0B0D13 /* Pods_OSXMiner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,20 +187,45 @@
 			productReference = 607FACD01AFB9204008FA782 /* XMRMiner_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B81520CD1F9675DA006CF790 /* OSXMiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81520E61F9675DA006CF790 /* Build configuration list for PBXNativeTarget "OSXMiner" */;
+			buildPhases = (
+				D9AAC7C38DDCBD358173023F /* [CP] Check Pods Manifest.lock */,
+				B81520CA1F9675DA006CF790 /* Sources */,
+				B81520CB1F9675DA006CF790 /* Frameworks */,
+				B81520CC1F9675DA006CF790 /* Resources */,
+				ADDF6A78EBE332672C576CE5 /* [CP] Embed Pods Frameworks */,
+				FB46B3FEE3BF42B8776CF9A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXMiner;
+			productName = OSXMiner;
+			productReference = B81520CE1F9675DA006CF790 /* OSXMiner.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = ARSQN5BBHW;
+						DevelopmentTeam = 6YVK3JNJHK;
 						LastSwiftMigration = 0900;
+					};
+					B81520CD1F9675DA006CF790 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 6YVK3JNJHK;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -171,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* XMRMiner_Example */,
+				B81520CD1F9675DA006CF790 /* OSXMiner */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +256,15 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81520CC1F9675DA006CF790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81520D51F9675DA006CF790 /* Assets.xcassets in Resources */,
+				B81520D81F9675DA006CF790 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +284,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDF6A78EBE332672C576CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CA1C2869A8F2482C13926A9B /* [CP] Embed Pods Frameworks */ = {
@@ -234,6 +331,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMRMiner_Example/Pods-XMRMiner_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D9AAC7C38DDCBD358173023F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB46B3FEE3BF42B8776CF9A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,6 +370,15 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81520CA1F9675DA006CF790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81520D31F9675DA006CF790 /* ViewController.swift in Sources */,
+				B81520D11F9675DA006CF790 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +399,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B81520D61F9675DA006CF790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81520D71F9675DA006CF790 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,8 +517,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ARSQN5BBHW;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				DEVELOPMENT_TEAM = 6YVK3JNJHK;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				INFOPLIST_FILE = XMRMiner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -394,7 +538,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ARSQN5BBHW;
+				DEVELOPMENT_TEAM = 6YVK3JNJHK;
 				INFOPLIST_FILE = XMRMiner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -405,6 +549,58 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		B81520E71F9675DA006CF790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FAB274B08F738E31687565 /* Pods-OSXMiner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6YVK3JNJHK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OSXMiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tendigi.OSXMiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B81520E81F9675DA006CF790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB359018E83F326E81E04F12 /* Pods-OSXMiner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6YVK3JNJHK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OSXMiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tendigi.OSXMiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -425,6 +621,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81520E61F9675DA006CF790 /* Build configuration list for PBXNativeTarget "OSXMiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81520E71F9675DA006CF790 /* Debug */,
+				B81520E81F9675DA006CF790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

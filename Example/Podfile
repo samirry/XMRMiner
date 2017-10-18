@@ -1,5 +1,13 @@
 use_frameworks!
 
-target 'XMRMiner_Example' do
+def dev_pod
   pod 'XMRMiner', :path => '../'
+end
+
+target 'XMRMiner_Example' do
+  dev_pod
+end
+
+target 'OSXMiner' do
+  dev_pod
 end

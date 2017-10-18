@@ -40,9 +40,11 @@ class Job: Mappable {
         }
     }
     
-    // MARK: Mappable
+    // MARK: Initialization
     
     required init?(map: Map) {}
+    
+    // MARK: Mapping
     
     func mapping(map: Map) {
         var blobStr = ""

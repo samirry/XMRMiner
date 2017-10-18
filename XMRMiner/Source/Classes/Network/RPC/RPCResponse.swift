@@ -10,19 +10,27 @@ import ObjectMapper
 
 final class RPCResponse: RPCObject {
     
+    // MARK: Types
+    
     enum Result {
         case none
         case error(value: Any)
         case success(value: Any)
     }
     
-    var id: Int = 0
-    var result: Result = .none
+    // MARK: Properties
+    
+    private(set) var id: Int = 0
+    private(set) var result: Result = .none
  
+    // MARK: Initialization
+    
     required init?(map: Map) {
         super.init(map: map)
     }
 
+    // MARK: Mapping
+    
     override func mapping(map: Map) {
         super.mapping(map: map)
         

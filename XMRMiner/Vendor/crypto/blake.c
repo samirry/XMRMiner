@@ -156,12 +156,15 @@ void blake256_update(state *S, const uint8_t *data, uint64_t datalen) {
 		datalen -= 512;
 	}
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wshorten-64-to-32"
 	if (datalen > 0) {
 		memcpy((void *) (S->buf + left), (void *) data, datalen >> 3);
 		S->buflen = (left << 3) + datalen;
 	} else {
 		S->buflen = 0;
 	}
+#pragma clang diagnostic pop
 }
 
 // datalen = number of bits

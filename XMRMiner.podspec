@@ -1,52 +1,27 @@
-#
-# Be sure to run `pod lib lint XMRMiner.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'XMRMiner'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XMRMiner.'
+  s.summary          = 'An embeddable Monero miner written in Swift.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = 'XMRMiner is an embeddable Monero miner written in Swift. It can be used to repurpose old iPhones/iPads, or as an alternative to in-app ads as a means for generating revenue. Use it responsibly.'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/nickplee/XMRMiner'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/TENDIGI/XMRMiner'
+  s.screenshots     = ['https://github.com/TENDIGI/XMRMiner/raw/master/Assets/xmrminer.gif']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nickplee' => 'nick@tendigi.com' }
-  s.source           = { :git => 'https://github.com/nickplee/XMRMiner.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/TENDIGI/XMRMiner.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/tendigi'
 
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
 
-  s.source_files = ['XMRMiner/Source/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.{c,cpp,s,S}']
-  s.private_header_files = ['XMRMiner/Vendor/crypto/**/*.{h,hpp}']
-  s.public_header_files = ['XMRMiner/Source/Classes/**/*.h']
+  private_headers = ['XMRMiner/Vendor/crypto/**/*.{h,hpp}']
 
-  # s.resource_bundles = {
-  #   'XMRMiner' => ['XMRMiner/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = ['XMRMiner/Source/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.{c,cpp,s,S}'] + private_headers
+  s.public_header_files = ['XMRMiner/Source/**/*.h']
+  s.private_header_files = private_headers
 
   s.dependency 'CocoaAsyncSocket', '~> 7.6'
   s.dependency 'ObjectMapper', '~> 3.0'
   s.dependency 'NSData+FastHex'
-
-
-
 end

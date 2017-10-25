@@ -1,12 +1,10 @@
 # XMRMiner
 
+XMRMiner is an embeddable Monero miner written in Swift. It can be used to repurpose old iPhones/iPads, or as an alternative to in-app ads as a means for generating revenue. *Use it responsibly.*
+
 [![Version](https://img.shields.io/cocoapods/v/XMRMiner.svg?style=flat)](http://cocoapods.org/pods/XMRMiner)
 
-
-
-## What is it?
-
-XMRMiner is an embeddable Monero miner written in Swift. It can be used to repurpose old iPhones/iPads, or as an alternative to in-app ads as a means for generating revenue. *Use it responsibly.*
+![Miner Working](./Assets/xmrminer.gif)
 
 ## Why Monero?
 
@@ -80,7 +78,7 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 
 ## Author
 
-nickplee, nick@tendigi.com
+Nick Lee, [nick@tendigi.com](mailto:nick@tendigi.com)
 
 ## License
 

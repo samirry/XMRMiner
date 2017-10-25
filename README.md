@@ -44,38 +44,38 @@ let miner = Miner(destinationAddress: "<your Monero address>")
 You'll then want to set the Miner's delegate, and implement the status method:
 
 ```swift
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        miner.delegate = window?.rootViewController as? MinerDelegate
-        return true
-    }
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    miner.delegate = window?.rootViewController as? MinerDelegate
+    return true
+}
 ```
 
 In our app's `ViewController.swift`:
 
 ```swift
-	extension ViewController: MinerDelegate {
-	    func miner(updatedStats stats: MinerStats) {
-	        hashrateLabel.text = "\(stats.hashRate) H/s"
-	        submittedHashesLabel.text = "\(stats.submittedHashes)"
-	    }
-	}
+extension ViewController: MinerDelegate {
+    func miner(updatedStats stats: MinerStats) {
+        hashrateLabel.text = "\(stats.hashRate) H/s"
+        submittedHashesLabel.text = "\(stats.submittedHashes)"
+    }
+}
 ```
 
 Finally, you'll want to configure your app to start/stop the Miner at appropriate times. Again, in `AppDelegate.swift`:
 
 ```swift
-    func applicationWillResignActive(_ application: UIApplication) {
-        miner.stop()
-    }
+func applicationWillResignActive(_ application: UIApplication) {
+    miner.stop()
+}
     
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        do {
-            try miner.start()
-        }
-        catch {
-            print("something bad happened")
-        }
+func applicationDidBecomeActive(_ application: UIApplication) {
+    do {
+        try miner.start()
     }
+    catch {
+        print("something bad happened")
+    }
+}
 ```
 
 ## Author

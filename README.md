@@ -1,6 +1,6 @@
 # XMRMiner
 
-XMRMiner is an embeddable Monero miner written in Swift. It can be used to repurpose old iPhones/iPads, or as an alternative to in-app ads as a means for generating revenue. *Use it responsibly.*
+XMRMiner is an embeddable [Monero](https://getmonero.org/) miner written in Swift. It can be used to repurpose old iPhones/iPads, or as an alternative to in-app ads as a means for generating revenue. *Use it responsibly.*
 
 [![Version](https://img.shields.io/cocoapods/v/XMRMiner.svg?style=flat)](http://cocoapods.org/pods/XMRMiner)
 
@@ -18,7 +18,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-To get started, you'll need to set up a Monero wallet and get a Monero address. You can either set up a wallet locally by following a guide [like this one](https://moneroeric.com/install-monero-wallet-address/), or use an online wallet like [MyMonero](https://mymonero.com/#/).
+To get started, you'll need to set up a Monero wallet and get a Monero address. You can either set up a wallet locally by following a guide [like this one](https://moneroeric.com/install-monero-wallet-address/), or use an online wallet like [MyMonero](https://mymonero.com/#/). 
+
+Also, you'll need at least the following:
+
+- iOS 10.0+
+- Xcode 9+
+- Swift 4+
 
 ## Installation and Usage
 
@@ -33,7 +39,13 @@ pod 'XMRMiner'
 
 ### Integrating the miner into an application
 
-First, you'll need to instantiate a `Miner`. If you're just getting started, most of the default parameters should be fine. See `Miner.swift` for the other parameters that can be passed to the `Miner` constructor. We did this in `AppDelegate.swift`.
+First, import the library:
+
+```swift
+import XMRMiner
+```
+
+Next, you'll need to instantiate a `Miner`. If you're just getting started, most of the default parameters should be fine. See `Miner.swift` for the other parameters that can be passed to the `Miner` constructor. We did this in `AppDelegate.swift`.
 
 ```swift 
 let miner = Miner(destinationAddress: "<your Monero address>")

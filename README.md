@@ -92,6 +92,8 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 
 Nick Lee, [nick@tendigi.com](mailto:nick@tendigi.com)
 
-## License
+## License / Credits
 
-XMRMiner is available under the MIT license. See the LICENSE file for more info.
+Portions of this software are subject to additional license restrictions, as they have been ported from the [Xmonarch repository](https://github.com/noahdesu/xmonarch). They can be found in the `Vendor/crypto` folder.
+
+XMRMiner is available under the MIT license.

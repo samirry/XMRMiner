@@ -18,10 +18,7 @@
 /* Begin PBXFileReference section */
 		04CC4C64FEB9777D07F70622 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0CA86951D07C103F80B656FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3C4ECFE761D747A92E92F106 /* Pods-xminer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xminer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xminer/Pods-xminer.debug.xcconfig"; sourceTree = "<group>"; };
-		3D1FE4FC8520EAB8630156F4 /* Pods_XMRMiner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRMiner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		435425E409D155732B777013 /* XMRMiner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMRMiner.podspec; path = ../XMRMiner.podspec; sourceTree = "<group>"; };
-		52FAB274B08F738E31687565 /* Pods-OSXMiner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXMiner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XMRMiner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMRMiner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,15 +26,9 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		832B27D53D1F703C31D203B0 /* Pods-XMRMiner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Tests/Pods-XMRMiner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		853535EB4216269780BF4DA0 /* Pods-XMRMiner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Tests/Pods-XMRMiner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8744962E28BDAA6DD1B2D300 /* Pods-XMRMiner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Example/Pods-XMRMiner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A25D2B474368A308335A5919 /* Pods_XMRMiner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMRMiner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9DBAF51CC0C295A6B905CB4 /* Pods_xminer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xminer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFC77A104D3FAA8A688EC0 /* Pods-XMRMiner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRMiner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMRMiner_Example/Pods-XMRMiner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C54BDE6ADFE44BC7AF3AB0A1 /* Pods-xminer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xminer.release.xcconfig"; path = "Pods/Target Support Files/Pods-xminer/Pods-xminer.release.xcconfig"; sourceTree = "<group>"; };
-		CB359018E83F326E81E04F12 /* Pods-OSXMiner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXMiner.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSXMiner/Pods-OSXMiner.release.xcconfig"; sourceTree = "<group>"; };
-		E38D082F661869E50C0B0D13 /* Pods_OSXMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +99,6 @@
 			children = (
 				C1AFC77A104D3FAA8A688EC0 /* Pods-XMRMiner_Example.debug.xcconfig */,
 				8744962E28BDAA6DD1B2D300 /* Pods-XMRMiner_Example.release.xcconfig */,
-				832B27D53D1F703C31D203B0 /* Pods-XMRMiner_Tests.debug.xcconfig */,
-				853535EB4216269780BF4DA0 /* Pods-XMRMiner_Tests.release.xcconfig */,
-				3C4ECFE761D747A92E92F106 /* Pods-xminer.debug.xcconfig */,
-				C54BDE6ADFE44BC7AF3AB0A1 /* Pods-xminer.release.xcconfig */,
-				52FAB274B08F738E31687565 /* Pods-OSXMiner.debug.xcconfig */,
-				CB359018E83F326E81E04F12 /* Pods-OSXMiner.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -122,9 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				A25D2B474368A308335A5919 /* Pods_XMRMiner_Example.framework */,
-				3D1FE4FC8520EAB8630156F4 /* Pods_XMRMiner_Tests.framework */,
-				A9DBAF51CC0C295A6B905CB4 /* Pods_xminer.framework */,
-				E38D082F661869E50C0B0D13 /* Pods_OSXMiner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

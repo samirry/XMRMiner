@@ -6,7 +6,7 @@
 //
 
 #import "HashContext.h"
-#import "../../../Vendor/crypto/cryptonight.h"
+#import "../../Vendor/crypto/cryptonight.h"
 
 @interface HashContext()
 

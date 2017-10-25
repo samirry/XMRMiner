@@ -70,7 +70,6 @@ extension Miner: ClientDelegate {
     func client(_ client: Client, receivedJob: Job) {
         jobSemaphore.wait()
         job = receivedJob
-        print("new job")
         jobSemaphore.signal()
     }
 }
@@ -120,9 +119,7 @@ extension Miner {
                 do {
                     try self.client.submitJob(id: job.id, jobID: job.jobID, result: result, nonce: currentNonce)
                 }
-                catch {
-                    print("error!")
-                }
+                catch {}
             }
             statsSemaphore.wait()
             stats.submittedHashes += 1

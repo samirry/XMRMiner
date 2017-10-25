@@ -7,7 +7,3 @@ end
 target 'XMRMiner_Example' do
   dev_pod
 end
-
-target 'OSXMiner' do
-  dev_pod
-end

@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
 
-  s.source_files = ['XMRMiner/Source/Classes/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.{c,cpp,s,S}']
+  s.source_files = ['XMRMiner/Source/**/*.{h,swift,m,mm}', 'XMRMiner/Vendor/crypto/**/*.{c,cpp,s,S}']
   s.private_header_files = ['XMRMiner/Vendor/crypto/**/*.{h,hpp}']
   s.public_header_files = ['XMRMiner/Source/Classes/**/*.h']
 

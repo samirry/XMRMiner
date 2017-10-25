@@ -16,6 +16,8 @@
 
 @implementation HashContext
 
+
+
 - (instancetype)init
 {
     if (self = [super init]) {
@@ -23,7 +25,7 @@
     }
     return self;
 }
-
+    
 - (void)dealloc
 {
     if (_ctx) {

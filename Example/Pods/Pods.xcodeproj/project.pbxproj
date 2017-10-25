@@ -13,62 +13,58 @@
 		05EEA1D4414C0C335997043FC5B65C10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63635A7540AF1FD5927443292CC060F /* Foundation.framework */; };
 		06406E2C0D14B25A3FA3B6ED847D8E02 /* ObjectMapper-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8110F9A5DBCD9B1348ED42F0F751EF67 /* ObjectMapper-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0891F1E331153869085C18F33420DC75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0E69572E4992D2A8DED87BFA0E50EB /* Foundation.framework */; };
-		0AD0DA26B30697B21B4196517E877E6E /* XMRMiner-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE7FE41DAA8D16E5BB866FA8899B4A /* XMRMiner-iOS-dummy.m */; };
 		0B6B8FF89A1B75F89E8D082F896C67E7 /* ObjectMapper-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7203596C2BE7DD8626BB1CB84F8E1C /* ObjectMapper-OSX-dummy.m */; };
 		0E3F479C5664C03A7E938A8304CAE4F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */; };
 		0ECD3862C2A10CB8A44C0F65AA892F55 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BE027000B8882C694500E565FF11B4AC /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		100F7EAE25D5C4BEB81F6765F3432408 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = B02FCF58211F0D030C18B8728142BDCA /* skein.c */; };
 		11E7BB8BDDD0EAD7C7A46A0F4DE063A1 /* ObjectMapper-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4B5EA5DE40818067AA5340A21A818 /* ObjectMapper-iOS-dummy.m */; };
-		129B01581F1B7F1EADD686C48F30E50D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F7BB3EC08E3F2247E0F5AEFB44A1 /* Client.swift */; };
-		16CEA0AC034AA454342AF8434CB52CF8 /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7DCEE2A5F4DF64CE2087867E2D844F /* RPCNotification.swift */; };
 		17DD98CEBE737E9CBE288A52B8765C36 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B879585371336FA1F0D0A684A548CA7 /* MapError.swift */; };
 		18E86FF365298EE6F323208DE949ADF7 /* NSData+FastHex-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D8015E126C10396919E56E77B4B66D /* NSData+FastHex-iOS-dummy.m */; };
-		1A5C702272325339CE8066410E5FAED6 /* SinglePoolStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADB0F3042432056A094AA9939BBEFA /* SinglePoolStrategy.swift */; };
+		1983732AD49F3892999D31981E9AAC5E /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D7659540790FE1EF7E918BBE95CB87 /* oaes_lib.c */; };
 		1BEEF0DFF64165849964C0BF0E5B417D /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DEBF4EFDA08CD847BFA9A49C4C072 /* CustomDateFormatTransform.swift */; };
 		1E44E2B92B9A0222C018705C79333DCD /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAFCFF1DE03922372A51DF7F919A95 /* EnumTransform.swift */; };
-		1F4459F9FCCE1233F9078A956E1638B8 /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6570915E9D08D687530AFE333CDB0 /* RPCResponse.swift */; };
-		2200D46CD03F7BCB357D527D5013F91A /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F55450E4CC30ACB759630E1D4B1CBD /* groestl.c */; };
+		1E715D70E67E2D33344FC6B58F9E51A1 /* XMRMiner-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080D9D090E60AB9E3E9CD8481E5CDBA /* XMRMiner-OSX-dummy.m */; };
 		264E33D86A07C5D63264D1AE26EEBFC5 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AAB3B2D8FA46D3ACBB247C4267E106 /* DataTransform.swift */; };
-		288886E29D5C016A523D7B8DA100CB38 /* aesb.c in Sources */ = {isa = PBXBuildFile; fileRef = 568F8BDCBF472FA6EB9F462440FEE075 /* aesb.c */; };
+		26AC7DA73CE20519D33AEEEECE5ABDD2 /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D7659540790FE1EF7E918BBE95CB87 /* oaes_lib.c */; };
+		2953853D5A4F9521CA149B65234B2730 /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058CEF6F2AD09275C25DA2B6523591E /* RPCResponse.swift */; };
 		29AB9EF32A5156B69515AEA498055194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63635A7540AF1FD5927443292CC060F /* Foundation.framework */; };
 		2A0BEB1E47B2C6179C9DC6E6B1B680ED /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D404684F9B7536DADEA081291AD79 /* EnumOperators.swift */; };
 		2A2CBF26CB5A91E436413A417CC28228 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E507A4F39EFF77476D40005A35BE412E /* FromJSON.swift */; };
-		2A5B0D691F2984A227BC61C0A279AB1E /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B87BFD2470624EB4012F6DC590FD7E /* RPCObject.swift */; };
 		2B29BCB6BBC96406D6AD047D03BF0B49 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC15DC8F4B75116CF276155DE532745 /* CocoaAsyncSocket.framework */; };
 		2BA99F3049FB98576EAE7F4A04B9A480 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC570994573D8B048A1F39C342E93F /* Mappable.swift */; };
-		2CD9B967C13ABCE7518DD6B217F53019 /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89D5D04B0127C46FB43F8278E4DB23AE /* HashContext.mm */; };
 		2D23AAB05C2F7E7A9758A6F0A2B26F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63635A7540AF1FD5927443292CC060F /* Foundation.framework */; };
 		2E674F4818C6AD8F1B76E773F27614BF /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE444B37CF7A6418CE2B854DB364A /* TransformOperators.swift */; };
+		2F6E58F76A2C7FA5ECADCE67AEF4BD21 /* jh_ansi_opt64.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D256A60611904B895E24FDA481819FC /* jh_ansi_opt64.c */; };
+		352781BC8F1C5BCC019189876E6667E0 /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4764FBB8A784E702BF6AADBB078AA82 /* Miner.swift */; };
+		3A063BB5787E227C3BCCDB21D69BC507 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = ED2D62C22982D5A19BF0278D431DBEFA /* blake.c */; };
 		3AFDD112EE2ACFA27EF29B577815FEED /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB41B84E2A4E20024D9352304C01C0B /* NSDecimalNumberTransform.swift */; };
 		3B022B650AA3A637067B41D21E10504B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E963B8343F58F28B08D864F1DE4E4E7 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E38878710D8B4CD389167F74F0932DD /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = B02FCF58211F0D030C18B8728142BDCA /* skein.c */; };
+		3FB6AA43C0F08AD01377D804614BD51B /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = E94E62DFB478ACE87F55976AEA748795 /* keccak.c */; };
+		4227FF8A4FAE2252A40CFDB232FAD658 /* aesb.c in Sources */ = {isa = PBXBuildFile; fileRef = 568F8BDCBF472FA6EB9F462440FEE075 /* aesb.c */; };
+		42310783A6953701EC0A679C5B19F495 /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F55450E4CC30ACB759630E1D4B1CBD /* groestl.c */; };
+		4570AD66ECE7B6D9F27370F3D1319BF6 /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26D4E549A8907568B71DEF9A66C35F7E /* HashContext.mm */; };
 		45F1A073DD26BD8C88CABEA1F1CE1C0F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BE027000B8882C694500E565FF11B4AC /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4927A3FF21D38DB00CCFBA05AF44AD9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */; };
 		49689A20D8E405620024C20DD74DF444 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF8C35679DB8F77752B3ED0A67DA10 /* HexColorTransform.swift */; };
-		4A073F89863D6E45635E88CE632273B9 /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D7659540790FE1EF7E918BBE95CB87 /* oaes_lib.c */; };
-		4A452638AFEC85E8B7080228B10107FE /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEEC3C1DA3880F790E7B1B809F509C /* RPCRequest.swift */; };
-		4AF064E036DAC2D8C1558823269BF896 /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F0DDBB1DBC38B22B2EA63EC7D9EB1E /* Miner.swift */; };
-		4B60DFA8D28908FF791A56308E5921B5 /* MinerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B52066A3C50B8CF8829D9D28A12C91 /* MinerStats.swift */; };
-		4D95116E222DA25DD7B9EBDC8C25F6CA /* SinglePoolStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADB0F3042432056A094AA9939BBEFA /* SinglePoolStrategy.swift */; };
-		4E92997B782736DB08D42E5FDE912A8A /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE1A9D0AFF3FF0452153954D7273854 /* Strategy.swift */; };
-		4E9ACE109A29D227935C05C416918C49 /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F55450E4CC30ACB759630E1D4B1CBD /* groestl.c */; };
+		4C251EA39D99E7FA98C124D07448A57F /* MinerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271D3A71CBAB835D76E635FB43434FB0 /* MinerStats.swift */; };
 		4F159657EBB1CBAE98932C4AB28902BC /* XMRMiner-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEBEE1EC548AC84DC844A1FE39800D6 /* XMRMiner-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54CE2C20B5EDC3F7B40F62797444AD9A /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D7659540790FE1EF7E918BBE95CB87 /* oaes_lib.c */; };
-		5642EE9B173DB2BEA696C7CBF3DD199F /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6570915E9D08D687530AFE333CDB0 /* RPCResponse.swift */; };
-		5A12E555AD5C679D289CC41E73C3B0A2 /* MinerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B52066A3C50B8CF8829D9D28A12C91 /* MinerStats.swift */; };
-		5E146BACB16937569247F0FD274217C4 /* cryptonight.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5A881504149F5E68D3D071C63DEB7 /* cryptonight.c */; };
-		5E998E2AC2148451EF9EA4B86819B485 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = ED2D62C22982D5A19BF0278D431DBEFA /* blake.c */; };
+		531AD83A183CB411479970CBB238AA0E /* MiningError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2BD504F586F5ACE78882D00597E63 /* MiningError.swift */; };
+		55C3AC7E13B3ECF648576565E99029EE /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4764FBB8A784E702BF6AADBB078AA82 /* Miner.swift */; };
+		590F8760045B26B2C837BF14179577F0 /* cryptonight.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5A881504149F5E68D3D071C63DEB7 /* cryptonight.c */; };
+		5AA33BF65DF29324CA0B3B542E2E56D3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDBEC21270F2A83599901BF1CF40B2 /* Client.swift */; };
+		5E22A630418DA9EC793D73B15FCAB0BD /* aesb.c in Sources */ = {isa = PBXBuildFile; fileRef = 568F8BDCBF472FA6EB9F462440FEE075 /* aesb.c */; };
 		5F00187AFD0D3942D16CD058136B58C5 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD657966270A9885034F9A0D5D7DE1 /* URLTransform.swift */; };
 		60442FFE686BE2BDE22BBDF46283D62A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94D92D27672270B973C856282CB022 /* TransformOf.swift */; };
-		61C5958D8E3F365074A23D2944CBE22D /* jh_ansi_opt64.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D256A60611904B895E24FDA481819FC /* jh_ansi_opt64.c */; };
 		63B9F534E2C6E3E2E8F46B5304BFE1A7 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B95705493D466FD3BD1DA232D333BD /* IntegerOperators.swift */; };
 		63E677616423836407A2C561DF547182 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC15DC8F4B75116CF276155DE532745 /* CocoaAsyncSocket.framework */; };
-		692C8B06BB4FB3406174BD0A2CC857EE /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7DCEE2A5F4DF64CE2087867E2D844F /* RPCNotification.swift */; };
-		69B815AAB5614E8CC8B07B2091E8B30C /* XMRMiner-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080D9D090E60AB9E3E9CD8481E5CDBA /* XMRMiner-OSX-dummy.m */; };
-		6A2471166A1EAD293ACE1A1C2B779B2C /* jh_ansi_opt64.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D256A60611904B895E24FDA481819FC /* jh_ansi_opt64.c */; };
 		6B0BE431E0A5021BA6BC4C807AAD7B4E /* NSData+FastHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8C6E25EDE93BAE8A4FFEC9FF9D4147 /* NSData+FastHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAB514F4FBA87692F6489A12CF88CF9 /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F55450E4CC30ACB759630E1D4B1CBD /* groestl.c */; };
+		6F5C73EE5491F9520E98BAC70FE1BB9E /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CAA4A309D6656D883083F5DCE3F11 /* Job.swift */; };
 		6FB72903BD1E64279686FDF08FF46D03 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B95705493D466FD3BD1DA232D333BD /* IntegerOperators.swift */; };
+		719D7DB3AE2F00F1A1220F654B04EB6B /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058CEF6F2AD09275C25DA2B6523591E /* RPCResponse.swift */; };
 		72CA1EDB3034335CABB901FCA154AB02 /* NSData_FastHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29BADE449C6EEC20121BA68E79F6988 /* NSData_FastHex.framework */; };
 		73D3E9EB9F0C037FBAE0695B3B55703E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ED94CCCAD29899B13D150AA3E69C08 /* CoreServices.framework */; };
+		73EE77356F759FC025AC0D8A4D9E4730 /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718F99D189D65C18DFE262384125783 /* RPCObject.swift */; };
 		7566F5CF283B854C4F751C2EBC6C1674 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495B08C58856B709ED89002C601DD2 /* ISO8601DateTransform.swift */; };
 		77B927F55ABB43C8AB8E4F8B8548E9C7 /* NSData+FastHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AB0515C42176EC8D037FD9784C75D7 /* NSData+FastHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		78198EC3124A648B1B26FA0F7DA4BA54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63635A7540AF1FD5927443292CC060F /* Foundation.framework */; };
@@ -77,48 +73,46 @@
 		7D13E92104B589D2CE33870D6C57C889 /* NSData+FastHex-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F89AA0A5D3423BE401B54504B4A73D /* NSData+FastHex-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE1EF3EE975AC692A27D6AFD776B5E7 /* NSData_FastHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29BADE449C6EEC20121BA68E79F6988 /* NSData_FastHex.framework */; };
 		7EA460BA43506A31F70BBAB2E8965EA5 /* NSData+FastHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AB0515C42176EC8D037FD9784C75D7 /* NSData+FastHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7FD1F9E60E6B206EF92B0F90AD9B19C2 /* cryptonight.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5A881504149F5E68D3D071C63DEB7 /* cryptonight.c */; };
 		8047C0C037643D98BDB76F5491B6BAD4 /* ObjectMapper-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDC309D9AF0C7B3D5C8CDA635AA0F84 /* ObjectMapper-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80584CFB4594C0E14C52FF5721A9752E /* CocoaAsyncSocket-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1D8F8FD7F85054EA47DADCA407FCF /* CocoaAsyncSocket-iOS-dummy.m */; };
 		817C269E9D7F50EC9B28A7A7655078DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B9536CC707B225FFDC54C5A6619784 /* Security.framework */; };
 		833DA50B9E7DEBDA4C0438D949141AE4 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E40228C010AF4044ABBF4248BDBDC /* ToJSON.swift */; };
-		84776EAA9CBF14ACB832898F633DE25E /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F0DDBB1DBC38B22B2EA63EC7D9EB1E /* Miner.swift */; };
-		878C93FA9C9E89040D7DABB000EC5661 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7049A393DCAB5D6DB113C0288FC396EB /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B2A5DD73317531CD3031AE2C0E6ACC9 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7049A393DCAB5D6DB113C0288FC396EB /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FE641D70ADF0120537D7078E529B3F /* MinerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271D3A71CBAB835D76E635FB43434FB0 /* MinerStats.swift */; };
+		878C93FA9C9E89040D7DABB000EC5661 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0635E1AE1C91B695D45736C36752F9 /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2A5DD73317531CD3031AE2C0E6ACC9 /* HashContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0635E1AE1C91B695D45736C36752F9 /* HashContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD686A7557019793DA353B606E7968F /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495B08C58856B709ED89002C601DD2 /* ISO8601DateTransform.swift */; };
 		8ED5BDA8170DD45DE1527EDA8DDB063A /* NSData+FastHex-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1E301C94B279A03CC6F9084425D38 /* NSData+FastHex-OSX-dummy.m */; };
 		8F83A0B77E6A77818E775412C1F0A16F /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94D92D27672270B973C856282CB022 /* TransformOf.swift */; };
-		8FF25E2DC986CDD01C960B78A617E9E1 /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89D5D04B0127C46FB43F8278E4DB23AE /* HashContext.mm */; };
 		910D517A5C41CD32F0A6C3C0AFC31654 /* Pods-OSXMiner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B5C8DA008F199760CE0C7425EECC8 /* Pods-OSXMiner-dummy.m */; };
 		919BF4457C62C0CBF1CFD8D321F5D483 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */; };
+		92C4DD7D26342ACE31F44CD905315955 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = ED2D62C22982D5A19BF0278D431DBEFA /* blake.c */; };
 		956A1EC1CF45554B7FE2E805B0C72A45 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61BBB9B0C60977378276FE032FEECB /* DictionaryTransform.swift */; };
 		985332FCF8951AA0ABF63F2289ACF2A8 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D404684F9B7536DADEA081291AD79 /* EnumOperators.swift */; };
+		9876A1549E8144A7103336069ADFB2AC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDBEC21270F2A83599901BF1CF40B2 /* Client.swift */; };
 		9901ABFDA78E7F0DDECDC0F2895DBA69 /* Pods-OSXMiner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E493490360E4B75D58BD9D6657824 /* Pods-OSXMiner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9961DE88B6AEAECBA7B37B5CC5D40955 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = E94E62DFB478ACE87F55976AEA748795 /* keccak.c */; };
 		9AE163BE6494DBFAF762F880B85A6FBC /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB629485BCC98CDC6FCBFCF2C25CEB /* Mapper.swift */; };
+		9D64414844E29D2D5F08958196B3CE9D /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718F99D189D65C18DFE262384125783 /* RPCObject.swift */; };
 		9F72C1C80225C96B43FE7ED3D1608C10 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A58C190DF5215770AB8BC1927325E /* DateFormatterTransform.swift */; };
-		A005B448A8B3E728CEE0F932BE5F6530 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = B02FCF58211F0D030C18B8728142BDCA /* skein.c */; };
 		A1FDFBF7543209A84445B1B0BDF15EC5 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9F9BF880C877B9F56E73721FA4AF9C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5568B5E1EAA35D755FC6659B03867A4 /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6A735132FA40E76FCC601A15B5A3D /* RPCNotification.swift */; };
+		A55A5A0F2F5B7948F8873ECA4C683388 /* HashContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26D4E549A8907568B71DEF9A66C35F7E /* HashContext.mm */; };
 		A93499BE3A0D676AD22CF2F97FF3F430 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B879585371336FA1F0D0A684A548CA7 /* MapError.swift */; };
 		A936C1928B6CE34C60C944F5A1E3CEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63635A7540AF1FD5927443292CC060F /* Foundation.framework */; };
 		A9EC5E8D2B33EA0CE2930B3CD9DC0282 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED3CE5ADC645C9410E7938C0F32E9D3 /* DateTransform.swift */; };
 		AA01F2AFA64627B5203AFB078A1E0349 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED3CE5ADC645C9410E7938C0F32E9D3 /* DateTransform.swift */; };
-		AF9716E44E3582D3BAE655CC477880BF /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE1A9D0AFF3FF0452153954D7273854 /* Strategy.swift */; };
+		B103065FCA92B8B87FD9ADB57465A38D /* jh_ansi_opt64.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D256A60611904B895E24FDA481819FC /* jh_ansi_opt64.c */; };
 		B1DDEF4382E7A26FE3EEBACDEB6A7DCD /* XMRMiner-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE54B8540AA9652E1FDD8CB0386EDD /* XMRMiner-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B209EBD905840C82669549112FF21999 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92C7B71BF091B2E8F0B103EBB2E5DBA /* ObjectMapper.framework */; };
 		B22D5D5FCE52B226670A84113044B4F8 /* CocoaAsyncSocket-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1802A5D0DDB580C978619A0073D407 /* CocoaAsyncSocket-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2A20B1522025CA42A8E92B8D9CD1D03 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC570994573D8B048A1F39C342E93F /* Mappable.swift */; };
-		B64D42477C32789E71D26A34FD4E9513 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = ED2D62C22982D5A19BF0278D431DBEFA /* blake.c */; };
+		B3F4D449CCA7C021082A43C148D3EE20 /* XMRMiner-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE7FE41DAA8D16E5BB866FA8899B4A /* XMRMiner-iOS-dummy.m */; };
 		B73722C39543A6FCB34BC0AFD5275804 /* NSData+FastHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8C6E25EDE93BAE8A4FFEC9FF9D4147 /* NSData+FastHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B818A9617AB620D00A1867A32676D5D7 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB41B84E2A4E20024D9352304C01C0B /* NSDecimalNumberTransform.swift */; };
-		B8413540E3C3DA9A33B52757990ABE4F /* RPCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B87BFD2470624EB4012F6DC590FD7E /* RPCObject.swift */; };
-		B8AD2B4F1F97EDF800AE0206 /* MiningError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AD2B4E1F97EDF800AE0206 /* MiningError.swift */; };
-		B8AD2B501F97EDF800AE0206 /* MiningError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AD2B4E1F97EDF800AE0206 /* MiningError.swift */; };
 		BACCE86655BB54D020235472A43FE648 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FF4D0971F5496DA81D18ECC18ACA4 /* Map.swift */; };
-		BD6A9AE78992D306D56918A2F1798E38 /* aesb.c in Sources */ = {isa = PBXBuildFile; fileRef = 568F8BDCBF472FA6EB9F462440FEE075 /* aesb.c */; };
 		BE378688B3161FE001D4A2B2FAAD693E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E6937F2A5B42CBCCEE47BD52B558C /* Operators.swift */; };
 		BE698871ADD743D88DDA80C9B765B567 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF8C35679DB8F77752B3ED0A67DA10 /* HexColorTransform.swift */; };
 		BFA90511BEEF80781D4FEF1EC223CF13 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E40228C010AF4044ABBF4248BDBDC /* ToJSON.swift */; };
+		C08842F16DB1BBE1FB1626DE75560CC0 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = E94E62DFB478ACE87F55976AEA748795 /* keccak.c */; };
 		C09AA9F86C7677BD39E49AB22D2B5138 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C153C71CA9D6D32FB683A064685819E2 /* Security.framework */; };
 		C1546D993E2613D7D68C592E3FA7652C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */; };
 		C318FC1F52F15C476913C8EF4E0C17CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */; };
@@ -129,13 +123,15 @@
 		C9A89F426C2B20356D2A0D753CC3A5A8 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D46A8F66D41F65AEF6322CCC59F86 /* TransformType.swift */; };
 		CB12D440AB216BA110888918A2338653 /* CocoaAsyncSocket-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4271213B544152A7E9FEE2622F184 /* CocoaAsyncSocket-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEE95057B53A9F7ADF6179E9A25F78BF /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AAB3B2D8FA46D3ACBB247C4267E106 /* DataTransform.swift */; };
+		D997752A06CEFC9706829560DDAB6B1F /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = B02FCF58211F0D030C18B8728142BDCA /* skein.c */; };
 		DACCC388D71AF32537986A10737F3F4E /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D46A8F66D41F65AEF6322CCC59F86 /* TransformType.swift */; };
 		DECCE51D598571A7B69864141AAF7B0A /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE444B37CF7A6418CE2B854DB364A /* TransformOperators.swift */; };
 		E016559EEC4BBCA7A57A5C13D526C83F /* Pods-XMRMiner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13893E7F2BFFCE92EB152288E36A4D1A /* Pods-XMRMiner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1E3B9A8EDFD3E2F507E34B0AC4DAB9A /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F7BB3EC08E3F2247E0F5AEFB44A1 /* Client.swift */; };
+		E0C2691F40B44476B9DF4D8076E9E5EF /* cryptonight.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5A881504149F5E68D3D071C63DEB7 /* cryptonight.c */; };
 		E40717949CA8B1C56A516D7E411D9F75 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71919BAC47A655B122094E62CFB751EA /* ImmutableMappable.swift */; };
 		E5B53414CBC7F7AA193DD74955538EE2 /* CocoaAsyncSocket-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A524AF4689B891F393BC1B5CB1A71984 /* CocoaAsyncSocket-OSX-dummy.m */; };
-		E625CA1C4279110AFE55D0547CC4CA03 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644545771D1C82FA6C13D4D90BF57D2B /* Job.swift */; };
+		E5E4FDAE3C621FAC6745A089388F9F6A /* RPCNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6A735132FA40E76FCC601A15B5A3D /* RPCNotification.swift */; };
+		E76DB02076B0450C0E6F0827EA72ABFE /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CAA4A309D6656D883083F5DCE3F11 /* Job.swift */; };
 		E81576616E575F4FADE94EC9812510D3 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE906C60C3A0316B32CE4FC8EC419C /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E8492E85D1EE4969A1817920EAEA8B24 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E6937F2A5B42CBCCEE47BD52B558C /* Operators.swift */; };
 		E8DD0A94794CB3421898F25115565C93 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71919BAC47A655B122094E62CFB751EA /* ImmutableMappable.swift */; };
@@ -143,11 +139,11 @@
 		EBCF506C5B8C401667D62216DF9E83D8 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAFCFF1DE03922372A51DF7F919A95 /* EnumTransform.swift */; };
 		EC09AE3D30A2E2F85BC3EFF836725581 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947031369333DC8CBF8509F57C85D26A /* CFNetwork.framework */; };
 		F43D0285444CCCDB7BDAB3699B903124 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FF4D0971F5496DA81D18ECC18ACA4 /* Map.swift */; };
-		F9842ADA6DDEFCEFDF929AF6E808B528 /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEEC3C1DA3880F790E7B1B809F509C /* RPCRequest.swift */; };
+		F587F263038D6D8786C9C8EB573612BB /* MiningError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2BD504F586F5ACE78882D00597E63 /* MiningError.swift */; };
+		F77740BDB076D8939527831B770209F6 /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07909902BB4382A09E8AAB237BAB54B4 /* RPCRequest.swift */; };
 		F9FE4895814EF2C991FF34CDED4063A0 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61BBB9B0C60977378276FE032FEECB /* DictionaryTransform.swift */; };
-		FBD8BDCCDF0AA410D2A7FAD66E782617 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644545771D1C82FA6C13D4D90BF57D2B /* Job.swift */; };
+		FAA54AD42B8F937B7CBDD1AA940A78BB /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07909902BB4382A09E8AAB237BAB54B4 /* RPCRequest.swift */; };
 		FC7F7DEC3747D5B4EA0318A078DCA391 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DEBF4EFDA08CD847BFA9A49C4C072 /* CustomDateFormatTransform.swift */; };
-		FD192B484E4B1EC613FD8167F1672C25 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = E94E62DFB478ACE87F55976AEA748795 /* keccak.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +253,7 @@
 		0418FD4B0FAB7A185E9A865C733ADA1A /* XMRMiner-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "XMRMiner-iOS.modulemap"; path = "../XMRMiner-iOS/XMRMiner-iOS.modulemap"; sourceTree = "<group>"; };
 		05F55450E4CC30ACB759630E1D4B1CBD /* groestl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
 		066522CB7DE70CAFA0EA3668F82CDA70 /* NSData+FastHex-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex-OSX-prefix.pch"; sourceTree = "<group>"; };
+		07909902BB4382A09E8AAB237BAB54B4 /* RPCRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCRequest.swift; sourceTree = "<group>"; };
 		0E7D4C1BCF8B63121582C4F0A059FB6B /* Pods-XMRMiner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMRMiner_Example-dummy.m"; sourceTree = "<group>"; };
 		10430F3BE2ABD2529368B50BF71289CF /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10996457D85152168AEF26857EE5C551 /* NSData+FastHex-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "NSData+FastHex-iOS.modulemap"; path = "../NSData+FastHex-iOS/NSData+FastHex-iOS.modulemap"; sourceTree = "<group>"; };
@@ -276,6 +273,9 @@
 		23E5F1E863443E8A6CDA2CFBA2BE4BC8 /* ObjectMapper-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-OSX-prefix.pch"; sourceTree = "<group>"; };
 		251FABC134540B50AD9DF722CFE5B569 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		26AF09C7982214C47396C58B83C37667 /* NSData_FastHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_FastHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D4E549A8907568B71DEF9A66C35F7E /* HashContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = HashContext.mm; sourceTree = "<group>"; };
+		2718F99D189D65C18DFE262384125783 /* RPCObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCObject.swift; sourceTree = "<group>"; };
+		271D3A71CBAB835D76E635FB43434FB0 /* MinerStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MinerStats.swift; sourceTree = "<group>"; };
 		28ED94CCCAD29899B13D150AA3E69C08 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		2B91B17BEE6FBF1B47D62C749EE7B307 /* Pods-OSXMiner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OSXMiner.modulemap"; sourceTree = "<group>"; };
 		2E9F9BF880C877B9F56E73721FA4AF9C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -301,21 +301,21 @@
 		58E5A881504149F5E68D3D071C63DEB7 /* cryptonight.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = cryptonight.c; sourceTree = "<group>"; };
 		5C18EB8786FF64122F85E1DA6700F54A /* Pods-XMRMiner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMRMiner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5EB41B84E2A4E20024D9352304C01C0B /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
-		644545771D1C82FA6C13D4D90BF57D2B /* Job.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		6058CEF6F2AD09275C25DA2B6523591E /* RPCResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCResponse.swift; sourceTree = "<group>"; };
 		674B56ECDFA82A98E821578024E483EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ObjectMapper-iOS/Info.plist"; sourceTree = "<group>"; };
 		682A970972EAE3DF8A86C7B4E2B1CC6E /* NSData+FastHex-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+FastHex-OSX-umbrella.h"; sourceTree = "<group>"; };
 		68FAFCFF1DE03922372A51DF7F919A95 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
 		6AB147295A84271587BB41C2E3AB6A9D /* Pods-XMRMiner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMRMiner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7049A393DCAB5D6DB113C0288FC396EB /* HashContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HashContext.h; sourceTree = "<group>"; };
-		70B87BFD2470624EB4012F6DC590FD7E /* RPCObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCObject.swift; sourceTree = "<group>"; };
+		70B6A735132FA40E76FCC601A15B5A3D /* RPCNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCNotification.swift; sourceTree = "<group>"; };
 		71919BAC47A655B122094E62CFB751EA /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
 		71FD570ADAD719EBD461EEDC0D8A1BBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../XMRMiner-iOS/Info.plist"; sourceTree = "<group>"; };
 		7212FDEA236D15C8E448EA2835EE10B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../NSData+FastHex-iOS/Info.plist"; sourceTree = "<group>"; };
+		743CAA4A309D6656D883083F5DCE3F11 /* Job.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		757495736F4AB8868753E44049D8C999 /* Pods-OSXMiner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSXMiner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75F0DDBB1DBC38B22B2EA63EC7D9EB1E /* Miner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
 		79B95705493D466FD3BD1DA232D333BD /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
 		7B0A18B43F7404FC8FBD06E2E40E3FB5 /* CocoaAsyncSocket-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CocoaAsyncSocket-OSX.modulemap"; sourceTree = "<group>"; };
 		7C260F3473BDFF176E95C04D63F16071 /* Pods-OSXMiner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSXMiner-frameworks.sh"; sourceTree = "<group>"; };
+		7D0635E1AE1C91B695D45736C36752F9 /* HashContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HashContext.h; sourceTree = "<group>"; };
 		7D7203596C2BE7DD8626BB1CB84F8E1C /* ObjectMapper-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-OSX-dummy.m"; sourceTree = "<group>"; };
 		7DBE906C60C3A0316B32CE4FC8EC419C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		7EFABFBD5C20DC1A44D83EFD1E14BF53 /* Pods_OSXMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,8 +326,6 @@
 		846E40228C010AF4044ABBF4248BDBDC /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
 		881A770814F852F1802C48BCBD072A03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881ECEB97C56C15FB62FF296D96A2E6E /* CocoaAsyncSocket-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaAsyncSocket-OSX.xcconfig"; sourceTree = "<group>"; };
-		8920F7BB3EC08E3F2247E0F5AEFB44A1 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		89D5D04B0127C46FB43F8278E4DB23AE /* HashContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = HashContext.mm; sourceTree = "<group>"; };
 		8AA4271213B544152A7E9FEE2622F184 /* CocoaAsyncSocket-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-OSX-umbrella.h"; sourceTree = "<group>"; };
 		8C5B5C8DA008F199760CE0C7425EECC8 /* Pods-OSXMiner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSXMiner-dummy.m"; sourceTree = "<group>"; };
 		8D256A60611904B895E24FDA481819FC /* jh_ansi_opt64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = jh_ansi_opt64.c; sourceTree = "<group>"; };
@@ -339,9 +337,9 @@
 		947031369333DC8CBF8509F57C85D26A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		94AF33CCD7092FD79F8BE46DADFBD5F2 /* XMRMiner-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "XMRMiner-OSX.modulemap"; sourceTree = "<group>"; };
 		94D7659540790FE1EF7E918BBE95CB87 /* oaes_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = oaes_lib.c; sourceTree = "<group>"; };
-		94DEEC3C1DA3880F790E7B1B809F509C /* RPCRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCRequest.swift; sourceTree = "<group>"; };
 		9DA4B5EA5DE40818067AA5340A21A818 /* ObjectMapper-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ObjectMapper-iOS-dummy.m"; path = "../ObjectMapper-iOS/ObjectMapper-iOS-dummy.m"; sourceTree = "<group>"; };
 		9EB03E8258835C2786ED773D1D68EF02 /* Pods-XMRMiner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMRMiner_Example.modulemap"; sourceTree = "<group>"; };
+		A3F2BD504F586F5ACE78882D00597E63 /* MiningError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MiningError.swift; sourceTree = "<group>"; };
 		A524AF4689B891F393BC1B5CB1A71984 /* CocoaAsyncSocket-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-OSX-dummy.m"; sourceTree = "<group>"; };
 		A576A72A5ABA48F89B0EBC432D1D7BDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5C2E1477ED95BA8A7E1D6BF1A901EE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -354,30 +352,26 @@
 		B0758A6BE56BCE2DEDFC68C1451A95AE /* Pods-OSXMiner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSXMiner-resources.sh"; sourceTree = "<group>"; };
 		B3AB0515C42176EC8D037FD9784C75D7 /* NSData+FastHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+FastHex.m"; sourceTree = "<group>"; };
 		B4FBE444B37CF7A6418CE2B854DB364A /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
-		B8AD2B4E1F97EDF800AE0206 /* MiningError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningError.swift; sourceTree = "<group>"; };
 		BB94D92D27672270B973C856282CB022 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
 		BE027000B8882C694500E565FF11B4AC /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		BEE1A9D0AFF3FF0452153954D7273854 /* Strategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		C153C71CA9D6D32FB683A064685819E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C7FDBEC21270F2A83599901BF1CF40B2 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		CACF8C35679DB8F77752B3ED0A67DA10 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
-		CAE6570915E9D08D687530AFE333CDB0 /* RPCResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCResponse.swift; sourceTree = "<group>"; };
 		CC9C0D6F90748CFB7687D2293E527909 /* Pods-XMRMiner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMRMiner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE4048F325FFD1959BA167D022D13BEF /* NSData+FastHex-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FastHex-iOS-prefix.pch"; path = "../NSData+FastHex-iOS/NSData+FastHex-iOS-prefix.pch"; sourceTree = "<group>"; };
 		D1A1C5667345958B00586BE1804A454D /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4060E849E6351A13F6F24FC146EB3BD /* ObjectMapper-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ObjectMapper-iOS.xcconfig"; path = "../ObjectMapper-iOS/ObjectMapper-iOS.xcconfig"; sourceTree = "<group>"; };
-		D4B52066A3C50B8CF8829D9D28A12C91 /* MinerStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MinerStats.swift; sourceTree = "<group>"; };
-		DAADB0F3042432056A094AA9939BBEFA /* SinglePoolStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinglePoolStrategy.swift; sourceTree = "<group>"; };
 		DAB2E1AC01975B1EB11276F088F7E473 /* Pods-OSXMiner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSXMiner.debug.xcconfig"; sourceTree = "<group>"; };
 		DE8E6937F2A5B42CBCCEE47BD52B558C /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
 		DED27C59C030B6BFE9CC4B13D77EE7F8 /* XMRMiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMRMiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC15DC8F4B75116CF276155DE532745 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D1A09195EC7FE932D00C96EC8230CB /* ObjectMapper-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "ObjectMapper-iOS.modulemap"; path = "../ObjectMapper-iOS/ObjectMapper-iOS.modulemap"; sourceTree = "<group>"; };
 		E2EE7FE41DAA8D16E5BB866FA8899B4A /* XMRMiner-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMRMiner-iOS-dummy.m"; path = "../XMRMiner-iOS/XMRMiner-iOS-dummy.m"; sourceTree = "<group>"; };
+		E4764FBB8A784E702BF6AADBB078AA82 /* Miner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
 		E507A4F39EFF77476D40005A35BE412E /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
 		E66D404684F9B7536DADEA081291AD79 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
 		E94E62DFB478ACE87F55976AEA748795 /* keccak.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
 		EAE834C41A47C89618ED191CCA42143D /* Pods-OSXMiner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSXMiner-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC7DCEE2A5F4DF64CE2087867E2D844F /* RPCNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPCNotification.swift; sourceTree = "<group>"; };
 		ED2D62C22982D5A19BF0278D431DBEFA /* blake.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
 		EE4074F99AFF5A609A7CFB0B49885237 /* Pods-XMRMiner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMRMiner_Example-resources.sh"; sourceTree = "<group>"; };
 		EED3CE5ADC645C9410E7938C0F32E9D3 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
@@ -530,6 +524,14 @@
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
+		16A82A9E5FB61309D2DD8F3347CF920F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B487B4A676EAF8B3FC143C6B7D172AEF /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		23331173F01DA6565A6C6BF27E5B7B5F /* Pods-XMRMiner_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +548,17 @@
 			);
 			name = "Pods-XMRMiner_Example";
 			path = "Target Support Files/Pods-XMRMiner_Example";
+			sourceTree = "<group>";
+		};
+		28828104AE4AF941AE4F048701CFF1CF /* RPC */ = {
+			isa = PBXGroup;
+			children = (
+				70B6A735132FA40E76FCC601A15B5A3D /* RPCNotification.swift */,
+				2718F99D189D65C18DFE262384125783 /* RPCObject.swift */,
+				07909902BB4382A09E8AAB237BAB54B4 /* RPCRequest.swift */,
+				6058CEF6F2AD09275C25DA2B6523591E /* RPCResponse.swift */,
+			);
+			path = RPC;
 			sourceTree = "<group>";
 		};
 		325789636A428D7BD82EC7BD051EE59C /* Support Files */ = {
@@ -599,26 +612,6 @@
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
-		36F253A29B3EC83BF5AEC05FBC056124 /* RPC */ = {
-			isa = PBXGroup;
-			children = (
-				EC7DCEE2A5F4DF64CE2087867E2D844F /* RPCNotification.swift */,
-				70B87BFD2470624EB4012F6DC590FD7E /* RPCObject.swift */,
-				94DEEC3C1DA3880F790E7B1B809F509C /* RPCRequest.swift */,
-				CAE6570915E9D08D687530AFE333CDB0 /* RPCResponse.swift */,
-			);
-			path = RPC;
-			sourceTree = "<group>";
-		};
-		3CCB2112BF393073C445364E5FDE53A9 /* Hashing */ = {
-			isa = PBXGroup;
-			children = (
-				7049A393DCAB5D6DB113C0288FC396EB /* HashContext.h */,
-				89D5D04B0127C46FB43F8278E4DB23AE /* HashContext.mm */,
-			);
-			path = Hashing;
-			sourceTree = "<group>";
-		};
 		519846A24A147E8FC4496A1FA821EC5D /* crypto */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,7 +630,7 @@
 		52737BF0D8D106B79C2358CC59C5A2CC /* XMRMiner */ = {
 			isa = PBXGroup;
 			children = (
-				CC5353BB956844D9496073664EA81E22 /* Source */,
+				16A82A9E5FB61309D2DD8F3347CF920F /* Source */,
 				A6A6B1A8991E6A827BE77D14F843545F /* Vendor */,
 			);
 			path = XMRMiner;
@@ -651,6 +644,25 @@
 				C153C71CA9D6D32FB683A064685819E2 /* Security.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E1771C7B150C7AE9FBF01D65721A62F /* Hashing */ = {
+			isa = PBXGroup;
+			children = (
+				7D0635E1AE1C91B695D45736C36752F9 /* HashContext.h */,
+				26D4E549A8907568B71DEF9A66C35F7E /* HashContext.mm */,
+			);
+			path = Hashing;
+			sourceTree = "<group>";
+		};
+		73BF6E94B121BC36A7096ED8DF73A541 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDBEC21270F2A83599901BF1CF40B2 /* Client.swift */,
+				A232FC77F07B8B8AECD5D9CD216623EB /* Model */,
+				28828104AE4AF941AE4F048701CFF1CF /* RPC */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		7AA2A97FFE4048E7DCDA0D86FA79DB55 /* Development Pods */ = {
@@ -683,17 +695,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		940687F5F1544AB591ED35845BA7F7B5 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				8920F7BB3EC08E3F2247E0F5AEFB44A1 /* Client.swift */,
-				D53D39EB697DC19BB07042447F0E3F7F /* Model */,
-				36F253A29B3EC83BF5AEC05FBC056124 /* RPC */,
-				E219B8536BE0DFFF2C70B90CE90A397D /* Strategies */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		97C245A5FFAC25ACB67EAB0838F3C748 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,6 +713,14 @@
 				23B9536CC707B225FFDC54C5A6619784 /* Security.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		A232FC77F07B8B8AECD5D9CD216623EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743CAA4A309D6656D883083F5DCE3F11 /* Job.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A6A6B1A8991E6A827BE77D14F843545F /* Vendor */ = {
@@ -739,6 +748,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B487B4A676EAF8B3FC143C6B7D172AEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4764FBB8A784E702BF6AADBB078AA82 /* Miner.swift */,
+				271D3A71CBAB835D76E635FB43434FB0 /* MinerStats.swift */,
+				A3F2BD504F586F5ACE78882D00597E63 /* MiningError.swift */,
+				6E1771C7B150C7AE9FBF01D65721A62F /* Hashing */,
+				73BF6E94B121BC36A7096ED8DF73A541 /* Network */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BFDCCC43A39ECAA00AB93CA303375959 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -749,18 +770,6 @@
 				9B9C2D173BA2571B9A7AF72A8C8DEA71 /* OS X */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3A73E935ADC5860953C1E3023C9EE58 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				75F0DDBB1DBC38B22B2EA63EC7D9EB1E /* Miner.swift */,
-				D4B52066A3C50B8CF8829D9D28A12C91 /* MinerStats.swift */,
-				B8AD2B4E1F97EDF800AE0206 /* MiningError.swift */,
-				3CCB2112BF393073C445364E5FDE53A9 /* Hashing */,
-				940687F5F1544AB591ED35845BA7F7B5 /* Network */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C40E90A45D4166A07DAF38D83679FE3D /* Support Files */ = {
@@ -781,22 +790,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ObjectMapper-OSX";
-			sourceTree = "<group>";
-		};
-		CC5353BB956844D9496073664EA81E22 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C3A73E935ADC5860953C1E3023C9EE58 /* Classes */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		D53D39EB697DC19BB07042447F0E3F7F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				644545771D1C82FA6C13D4D90BF57D2B /* Job.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D5BD3E49DE452D6A274D42E9478AC626 /* Pods-OSXMiner */ = {
@@ -825,15 +818,6 @@
 			);
 			name = XMRMiner;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		E219B8536BE0DFFF2C70B90CE90A397D /* Strategies */ = {
-			isa = PBXGroup;
-			children = (
-				DAADB0F3042432056A094AA9939BBEFA /* SinglePoolStrategy.swift */,
-				BEE1A9D0AFF3FF0452153954D7273854 /* Strategy.swift */,
-			);
-			path = Strategies;
 			sourceTree = "<group>";
 		};
 		E72664DC96B5BC694C47576876416082 /* jh */ = {
@@ -1068,7 +1052,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25B5F2B36685155083C90A1BE352973C /* Build configuration list for PBXNativeTarget "XMRMiner-OSX" */;
 			buildPhases = (
-				94DE978B6B8E0848F9FF6DB14BE0391B /* Sources */,
+				84293B891A9F1F756691D0C3DB8274A1 /* Sources */,
 				8F113B618C98D2CA55FA39E21B05EAA5 /* Frameworks */,
 				286143A77DD01C1A353AD764CD752FF4 /* Headers */,
 			);
@@ -1126,7 +1110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9894E377412E57BEC482C4105806892A /* Build configuration list for PBXNativeTarget "XMRMiner-iOS" */;
 			buildPhases = (
-				C8FFD0894557F020D3A302348A09C77A /* Sources */,
+				B8C50ECE11A189C7DA5106B2C35F4C40 /* Sources */,
 				3C0E7D39A6902C40B69F05287CEE6315 /* Frameworks */,
 				44B0E49891A524955E9B4EAA9F9291EC /* Headers */,
 			);
@@ -1149,7 +1133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1228,6 +1212,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84293B891A9F1F756691D0C3DB8274A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E22A630418DA9EC793D73B15FCAB0BD /* aesb.c in Sources */,
+				92C4DD7D26342ACE31F44CD905315955 /* blake.c in Sources */,
+				5AA33BF65DF29324CA0B3B542E2E56D3 /* Client.swift in Sources */,
+				E0C2691F40B44476B9DF4D8076E9E5EF /* cryptonight.c in Sources */,
+				42310783A6953701EC0A679C5B19F495 /* groestl.c in Sources */,
+				A55A5A0F2F5B7948F8873ECA4C683388 /* HashContext.mm in Sources */,
+				B103065FCA92B8B87FD9ADB57465A38D /* jh_ansi_opt64.c in Sources */,
+				6F5C73EE5491F9520E98BAC70FE1BB9E /* Job.swift in Sources */,
+				C08842F16DB1BBE1FB1626DE75560CC0 /* keccak.c in Sources */,
+				352781BC8F1C5BCC019189876E6667E0 /* Miner.swift in Sources */,
+				83FE641D70ADF0120537D7078E529B3F /* MinerStats.swift in Sources */,
+				531AD83A183CB411479970CBB238AA0E /* MiningError.swift in Sources */,
+				1983732AD49F3892999D31981E9AAC5E /* oaes_lib.c in Sources */,
+				A5568B5E1EAA35D755FC6659B03867A4 /* RPCNotification.swift in Sources */,
+				73EE77356F759FC025AC0D8A4D9E4730 /* RPCObject.swift in Sources */,
+				F77740BDB076D8939527831B770209F6 /* RPCRequest.swift in Sources */,
+				2953853D5A4F9521CA149B65234B2730 /* RPCResponse.swift in Sources */,
+				100F7EAE25D5C4BEB81F6765F3432408 /* skein.c in Sources */,
+				1E715D70E67E2D33344FC6B58F9E51A1 /* XMRMiner-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F700B86F76892090409573AAD9E7322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1247,59 +1257,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94DE978B6B8E0848F9FF6DB14BE0391B /* Sources */ = {
+		B8C50ECE11A189C7DA5106B2C35F4C40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288886E29D5C016A523D7B8DA100CB38 /* aesb.c in Sources */,
-				B64D42477C32789E71D26A34FD4E9513 /* blake.c in Sources */,
-				129B01581F1B7F1EADD686C48F30E50D /* Client.swift in Sources */,
-				7FD1F9E60E6B206EF92B0F90AD9B19C2 /* cryptonight.c in Sources */,
-				4E9ACE109A29D227935C05C416918C49 /* groestl.c in Sources */,
-				2CD9B967C13ABCE7518DD6B217F53019 /* HashContext.mm in Sources */,
-				6A2471166A1EAD293ACE1A1C2B779B2C /* jh_ansi_opt64.c in Sources */,
-				FBD8BDCCDF0AA410D2A7FAD66E782617 /* Job.swift in Sources */,
-				9961DE88B6AEAECBA7B37B5CC5D40955 /* keccak.c in Sources */,
-				4AF064E036DAC2D8C1558823269BF896 /* Miner.swift in Sources */,
-				5A12E555AD5C679D289CC41E73C3B0A2 /* MinerStats.swift in Sources */,
-				4A073F89863D6E45635E88CE632273B9 /* oaes_lib.c in Sources */,
-				16CEA0AC034AA454342AF8434CB52CF8 /* RPCNotification.swift in Sources */,
-				B8413540E3C3DA9A33B52757990ABE4F /* RPCObject.swift in Sources */,
-				F9842ADA6DDEFCEFDF929AF6E808B528 /* RPCRequest.swift in Sources */,
-				1F4459F9FCCE1233F9078A956E1638B8 /* RPCResponse.swift in Sources */,
-				4D95116E222DA25DD7B9EBDC8C25F6CA /* SinglePoolStrategy.swift in Sources */,
-				A005B448A8B3E728CEE0F932BE5F6530 /* skein.c in Sources */,
-				AF9716E44E3582D3BAE655CC477880BF /* Strategy.swift in Sources */,
-				69B815AAB5614E8CC8B07B2091E8B30C /* XMRMiner-OSX-dummy.m in Sources */,
-				B8AD2B501F97EDF800AE0206 /* MiningError.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8FFD0894557F020D3A302348A09C77A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD6A9AE78992D306D56918A2F1798E38 /* aesb.c in Sources */,
-				5E998E2AC2148451EF9EA4B86819B485 /* blake.c in Sources */,
-				E1E3B9A8EDFD3E2F507E34B0AC4DAB9A /* Client.swift in Sources */,
-				5E146BACB16937569247F0FD274217C4 /* cryptonight.c in Sources */,
-				2200D46CD03F7BCB357D527D5013F91A /* groestl.c in Sources */,
-				8FF25E2DC986CDD01C960B78A617E9E1 /* HashContext.mm in Sources */,
-				61C5958D8E3F365074A23D2944CBE22D /* jh_ansi_opt64.c in Sources */,
-				E625CA1C4279110AFE55D0547CC4CA03 /* Job.swift in Sources */,
-				FD192B484E4B1EC613FD8167F1672C25 /* keccak.c in Sources */,
-				84776EAA9CBF14ACB832898F633DE25E /* Miner.swift in Sources */,
-				4B60DFA8D28908FF791A56308E5921B5 /* MinerStats.swift in Sources */,
-				54CE2C20B5EDC3F7B40F62797444AD9A /* oaes_lib.c in Sources */,
-				692C8B06BB4FB3406174BD0A2CC857EE /* RPCNotification.swift in Sources */,
-				2A5B0D691F2984A227BC61C0A279AB1E /* RPCObject.swift in Sources */,
-				4A452638AFEC85E8B7080228B10107FE /* RPCRequest.swift in Sources */,
-				5642EE9B173DB2BEA696C7CBF3DD199F /* RPCResponse.swift in Sources */,
-				1A5C702272325339CE8066410E5FAED6 /* SinglePoolStrategy.swift in Sources */,
-				3E38878710D8B4CD389167F74F0932DD /* skein.c in Sources */,
-				4E92997B782736DB08D42E5FDE912A8A /* Strategy.swift in Sources */,
-				0AD0DA26B30697B21B4196517E877E6E /* XMRMiner-iOS-dummy.m in Sources */,
-				B8AD2B4F1F97EDF800AE0206 /* MiningError.swift in Sources */,
+				4227FF8A4FAE2252A40CFDB232FAD658 /* aesb.c in Sources */,
+				3A063BB5787E227C3BCCDB21D69BC507 /* blake.c in Sources */,
+				9876A1549E8144A7103336069ADFB2AC /* Client.swift in Sources */,
+				590F8760045B26B2C837BF14179577F0 /* cryptonight.c in Sources */,
+				6CAB514F4FBA87692F6489A12CF88CF9 /* groestl.c in Sources */,
+				4570AD66ECE7B6D9F27370F3D1319BF6 /* HashContext.mm in Sources */,
+				2F6E58F76A2C7FA5ECADCE67AEF4BD21 /* jh_ansi_opt64.c in Sources */,
+				E76DB02076B0450C0E6F0827EA72ABFE /* Job.swift in Sources */,
+				3FB6AA43C0F08AD01377D804614BD51B /* keccak.c in Sources */,
+				55C3AC7E13B3ECF648576565E99029EE /* Miner.swift in Sources */,
+				4C251EA39D99E7FA98C124D07448A57F /* MinerStats.swift in Sources */,
+				F587F263038D6D8786C9C8EB573612BB /* MiningError.swift in Sources */,
+				26AC7DA73CE20519D33AEEEECE5ABDD2 /* oaes_lib.c in Sources */,
+				E5E4FDAE3C621FAC6745A089388F9F6A /* RPCNotification.swift in Sources */,
+				9D64414844E29D2D5F08958196B3CE9D /* RPCObject.swift in Sources */,
+				FAA54AD42B8F937B7CBDD1AA940A78BB /* RPCRequest.swift in Sources */,
+				719D7DB3AE2F00F1A1220F654B04EB6B /* RPCResponse.swift in Sources */,
+				D997752A06CEFC9706829560DDAB6B1F /* skein.c in Sources */,
+				B3F4D449CCA7C021082A43C148D3EE20 /* XMRMiner-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1484,7 +1464,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1492,14 +1474,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -1514,6 +1502,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1557,7 +1546,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02D01EFF461348310414205D7F2AAF78 /* XMRMiner-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1582,7 +1570,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1633,7 +1621,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4060E849E6351A13F6F24FC146EB3BD /* ObjectMapper-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1703,7 +1690,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4060E849E6351A13F6F24FC146EB3BD /* ObjectMapper-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1738,7 +1724,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8077CC6CA64BF3E012E61FCAC53DE17A /* Pods-XMRMiner_Example.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1777,7 +1762,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02D01EFF461348310414205D7F2AAF78 /* XMRMiner-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1790,7 +1774,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREFIX_HEADER = "Target Support Files/XMRMiner-iOS/XMRMiner-iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/XMRMiner-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1918,7 +1901,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9539F3F372E687B811DAE08F9F99C15 /* CocoaAsyncSocket-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1952,7 +1934,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038135F2859BDC3DCC9C3F806C6A8EA7 /* NSData+FastHex-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2063,7 +2044,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -2071,15 +2054,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -2106,7 +2095,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 038135F2859BDC3DCC9C3F806C6A8EA7 /* NSData+FastHex-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2140,7 +2128,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C18EB8786FF64122F85E1DA6700F54A /* Pods-XMRMiner_Example.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2220,7 +2207,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9539F3F372E687B811DAE08F9F99C15 /* CocoaAsyncSocket-iOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

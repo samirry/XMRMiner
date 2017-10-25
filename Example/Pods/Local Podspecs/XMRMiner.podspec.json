@@ -21,7 +21,7 @@
   },
   "source_files": [
     "XMRMiner/Source/Classes/**/*.{h,swift,m,mm}",
-    "XMRMiner/Vendor/crypto/**/*.{c,cpp,S}"
+    "XMRMiner/Vendor/crypto/**/*.{c,cpp,s,S}"
   ],
   "private_header_files": [
     "XMRMiner/Vendor/crypto/**/*.{h,hpp}"

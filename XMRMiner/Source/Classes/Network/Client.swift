@@ -38,7 +38,7 @@ final class Client {
     
     // MARK: Initialization
     
-    public init(url u: URL) {
+    init(url u: URL) {
         url = u
         socketDelegate.client = self
         socket = GCDAsyncSocket(delegate: socketDelegate, delegateQueue: .main)
@@ -46,16 +46,23 @@ final class Client {
     
     // MARK: Network
     
-    public func connect() throws {
+    func connect() throws {
         guard socket.isDisconnected else {
             return
         }
         try socket.connect(toHost: url.host ?? "", onPort: UInt16(url.port ?? 3333))
     }
     
+    func disconnect() {
+        guard socket.isConnected else {
+            return
+        }
+        socket.disconnect()
+    }
+    
     // MARK: Jobs
     
-    public func submitJob(id: String, jobID: String, result: Data, nonce: Job.Nonce) throws {
+    func submitJob(id: String, jobID: String, result: Data, nonce: Job.Nonce) throws {
         var nonceData = Data(count:  MemoryLayout<Job.Nonce>.size)
         nonceData.withUnsafeMutableBytes { (ptr: UnsafeMutablePointer<Job.Nonce>) -> Void in
             ptr.pointee = nonce

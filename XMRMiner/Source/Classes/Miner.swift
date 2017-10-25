@@ -30,7 +30,7 @@ public final class Miner {
     let statsSemaphore = DispatchSemaphore(value: 1)
     var stats = MinerStats()
     
-    public init(host: String = "pool.supportxmr.com", port: Int = 3333, destinationAddress: String, clientIdentifier: String) {
+    public init(host: String = "pool.supportxmr.com", port: Int = 3333, destinationAddress: String, clientIdentifier: String = "\(arc4random())") {
         let url: URL = {
             var components = URLComponents()
             components.scheme = "stratum+tcp"
@@ -48,11 +48,9 @@ public final class Miner {
         stop()
     }
     
-    public func start(threadLimit: Int = ProcessInfo.processInfo.activeProcessorCount) {
-        try! client.connect()
-        
+    public func start(threadLimit: Int = ProcessInfo.processInfo.activeProcessorCount) throws {
+        try client.connect()
         let threadCount = max(min(ProcessInfo.processInfo.activeProcessorCount, threadLimit), 1)
-        
         for i in 0 ..< threadCount {
             let t = Thread(block: mine)
             t.name = "Mining Thread \(i+1)"
@@ -64,6 +62,7 @@ public final class Miner {
     public func stop() {
         threads.forEach { $0.cancel() }
         threads = []
+        client.disconnect()
     }
 }
 

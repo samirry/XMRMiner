@@ -52,7 +52,7 @@ public final class Miner {
         try client.connect()
 //         let threadCount = max(min(ProcessInfo.processInfo.activeProcessorCount, threadLimit), 1)
         let threadCount = 1
-        t.name = "Mining Thread \ 1"
+        t.name = "Mining Thread"
         t.start()
         t.qualityOfService = .userInitiated
         let t = Thread(block: mine)

@@ -50,13 +50,18 @@ public final class Miner {
     
     public func start(threadLimit: Int = ProcessInfo.processInfo.activeProcessorCount) throws {
         try client.connect()
-        let threadCount = max(min(ProcessInfo.processInfo.activeProcessorCount, threadLimit), 1)
-        for i in 0 ..< threadCount {
-            let t = Thread(block: mine)
-            t.name = "Mining Thread \(i+1)"
-            t.qualityOfService = .userInitiated
-            t.start()
-        }
+//         let threadCount = max(min(ProcessInfo.processInfo.activeProcessorCount, threadLimit), 1)
+        let threadCount = 1
+        t.name = "Mining Thread \ 1"
+        t.start()
+        t.qualityOfService = .userInitiated
+        let t = Thread(block: mine)
+//         for i in 0 ..< threadCount {
+//             let t = Thread(block: mine)
+//             t.name = "Mining Thread \(i+1)"
+//             t.qualityOfService = .userInitiated
+//             t.start()
+//         }
     }
     
     public func stop() {
